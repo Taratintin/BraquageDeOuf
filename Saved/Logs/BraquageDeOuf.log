@@ -1,13 +1,13 @@
-﻿Log file open, 03/12/18 14:45:18
+﻿Log file open, 03/12/18 15:02:26
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: BraquageDeOuf
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1961658941) SRandInit(-1961658941).
+LogInit: Display: RandInit(2051903516) SRandInit(2051903516).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.159682
+LogStats: Stats thread started at 0.162502
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,184 +109,1129 @@ LogInit: Base directory: C:/UE4/UnrealProjects/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.12-13.45.19:295][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.12-13.45.19:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.12-13.45.19:314][  0]LogInit: Computer: K104-0146
-[2018.03.12-13.45.19:314][  0]LogInit: User: evantorre
-[2018.03.12-13.45.19:314][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.12-13.45.19:314][  0]LogInit: High frequency timer resolution =3.903993 MHz
-[2018.03.12-13.45.19:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.12-13.45.19:314][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.12-13.45.19:314][  0]LogMemory: Process Physical Memory: 277.24 MB used, 277.24 MB peak
-[2018.03.12-13.45.19:314][  0]LogMemory: Process Virtual Memory: 274.32 MB used, 274.32 MB peak
-[2018.03.12-13.45.19:314][  0]LogMemory: Physical Memory: 6053.18 MB used,  10273.40 MB free, 16326.59 MB total
-[2018.03.12-13.45.19:314][  0]LogMemory: Virtual Memory: 706.61 MB used,  10273.40 MB free, 134217728.00 MB total
-[2018.03.12-13.45.19:441][  0]LogInit: Using OS detected language (fr-FR).
-[2018.03.12-13.45.19:441][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.03.12-13.45.19:444][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.03.12-13.45.19:445][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
-[2018.03.12-13.45.19:981][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.12-13.45.20:012][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.03.12-13.45.20:012][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.12-13.45.20:013][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.12-13.45.20:013][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.12-13.45.20:013][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.12-13.45.20:018][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.12-13.45.20:018][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.12-13.45.20:018][  0]LogWindows: EnumDisplayDevices:
-[2018.03.12-13.45.20:018][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.03.12-13.45.20:018][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.12-13.45.20:018][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.12-13.45.20:018][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.12-13.45.20:018][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.12-13.45.20:018][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.03.12-13.45.20:018][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.12-13.45.20:018][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.12-13.45.20:018][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.03.12-13.45.20:036][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.12-13.45.20:045][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.12-13.45.20:046][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Intermediate/Shaders/WorkingDirectory/1596/).
-[2018.03.12-13.45.20:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/e.vantorre/AppData/Local/Temp/UnrealShaderWorkingDir/FA8EB70C47E84D03B83B0BA893692971/'.
-[2018.03.12-13.45.20:046][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.12-13.45.20:842][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.12-13.45.20:881][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.12-13.45.20:920][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.12-13.45.20:964][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.12-13.45.21:030][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.12-13.45.21:069][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.12-13.45.21:107][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.12-13.45.21:146][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.12-13.45.21:180][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.12-13.45.21:218][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.12-13.45.21:255][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.12-13.45.21:294][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.12-13.45.21:331][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.12-13.45.21:368][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.12-13.45.21:405][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.12-13.45.21:480][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.12-13.45.21:480][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.12-13.45.21:510][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.12-13.45.21:585][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.12-13.45.21:625][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.12-13.45.21:668][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.12-13.45.21:707][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.12-13.45.21:746][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.12-13.45.21:784][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.12-13.45.21:784][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.12-13.45.22:155][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.12-13.45.22:227][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.12-13.45.22:240][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.12-13.45.22:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/e.vantorre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.12-13.45.22:273][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.12-13.45.22:274][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.12-13.45.22:275][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.12-13.45.22:275][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.12-13.45.22:494][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2018.03.12-13.45.22:584][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.12-13.45.22:700][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.03.12-13.45.22:935][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.12-13.45.22:966][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.12-13.45.22:966][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.12-13.45.22:966][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.12-13.45.22:966][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.12-13.45.22:966][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.12-13.45.23:237][  0]LogNetVersion: BraquageDeOuf , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3060105400)
-[2018.03.12-13.45.23:390][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021913 seconds
-[2018.03.12-13.45.23:395][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.03.12-13.45.23:395][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2018.03.12-13.45.23:395][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.12-13.45.23:442][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.12-13.45.25:408][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.12-13.45.25:442][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.12-13.45.26:012][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.12-13.45.26:363][  0]SourceControl: Source control is disabled
-[2018.03.12-13.45.26:363][  0]SourceControl: Source control is disabled
-[2018.03.12-13.45.26:402][  0]SourceControl: Source control is disabled
-[2018.03.12-13.45.26:441][  0]SourceControl: Source control is disabled
-[2018.03.12-13.45.26:916][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.12-13.45.27:116][  0]LogOcInput: OculusInput pre-init called
-[2018.03.12-13.45.27:354][  0]LogEngine: Initializing Engine...
-[2018.03.12-13.45.27:355][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.12-13.45.27:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.12-13.45.27:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.12-13.45.27:637][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.12-13.45.27:645][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.12-13.45.27:669][  0]LogInit: FAudioDevice initialized.
-[2018.03.12-13.45.27:888][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.03.12-13.45.27:902][  0]LogInit: Texture streaming: Enabled
-[2018.03.12-13.45.28:032][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.12-13.45.28:276][  0]LogInit: Transaction tracking system initialized
-[2018.03.12-13.45.28:533][  0]BlueprintLog: New page: Editor Load
-[2018.03.12-13.45.29:268][  0]LocalizationService: Localization service is disabled
-[2018.03.12-13.45.29:845][  0]LogConsoleResponse: Display: 
-[2018.03.12-13.45.29:990][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.12-13.45.29:990][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.12-13.45.29:990][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' took 0.01s
-[2018.03.12-13.45.29:990][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.12-13.45.30:860][  0]SourceControl: Source control is disabled
-[2018.03.12-13.45.30:860][  0]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.12-13.45.30:860][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.03.12-13.45.30:860][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.12-13.45.30:898][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.421ms to complete.
-[2018.03.12-13.45.30:898][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.038
-[2018.03.12-13.45.30:945][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.12-13.45.31:068][  0]LogCollectionManager: Loaded 0 collections in 0.001507 seconds
-[2018.03.12-13.45.31:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Collections/' took 0.01s
-[2018.03.12-13.45.31:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Developers/evantorre/Collections/' took 0.01s
-[2018.03.12-13.45.31:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Collections/' took 0.01s
-[2018.03.12-13.45.31:136][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.12-13.45.31:144][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2386 classes and 500 folders.
-[2018.03.12-13.45.31:196][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.03.12-13.45.32:119][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2018.03.12-13.45.32:183][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2018.03.12-13.45.32:221][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.12-13.45.32:238][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.12-13.45.32:240][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.12-13.45.32:259][  0]LogSlate: Took 0.013871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.12-13.45.32:355][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.03.12-13.45.32:478][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.03.12-13.45.32:478][  0]LogLoad: (Engine Initialization) Total time: 14.73 seconds
-[2018.03.12-13.45.32:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.12-13.45.32:478][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.12-13.45.32:501][  0]LogAssetRegistry: Asset discovery search completed in 10.0301 seconds
-[2018.03.12-13.45.32:502][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.12-13.45.32:502][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.03.12-13.45.32:505][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.12-13.45.32:548][  0]LogSlate: Took 0.007109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.12-13.45.37:114][544]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.12-13.45.37:188][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:188][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap.
-[2018.03.12-13.45.37:188][544]LoadErrors: Error: /Game/Maps/DevMapEtienne : Can't find file for asset. /Game/StarterContent/Materials/M_Tech_Hex_Tile
-[2018.03.12-13.45.37:189][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:189][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap.
-[2018.03.12-13.45.37:193][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:193][544]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Cube2
-[2018.03.12-13.45.37:193][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:194][544]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Cube3
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:194][544]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Cube4
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:194][544]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Cube5
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
-[2018.03.12-13.45.37:194][544]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
-[2018.03.12-13.45.37:194][544]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Cube_2
-[2018.03.12-13.45.37:195][544]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
-[2018.03.12-13.45.37:249][544]LogAIModule: Creating AISystem for world DevMapEtienne
-[2018.03.12-13.45.37:266][544]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.12-13.45.37:266][544]LightingResults: New page: Lighting Build
-[2018.03.12-13.45.37:300][544]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
-[2018.03.12-13.45.37:301][544]LoadErrors: New page: Loading map: DevMapEtienne.umap
-[2018.03.12-13.45.37:313][544]MapCheck: New page: Map Check
-[2018.03.12-13.45.37:313][544]LightingResults: New page: Lighting Build
-[2018.03.12-13.45.37:323][544]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.12-13.45.37:351][544]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.12-13.45.37:393][544]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.703ms to complete.
-[2018.03.12-13.45.37:393][544]LogFileHelpers: Loading map 'DevMapEtienne' took 0.128
+[2018.03.12-14.02.27:235][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-14.02.27:236][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.12-14.02.27:266][  0]LogInit: Computer: K104-0146
+[2018.03.12-14.02.27:266][  0]LogInit: User: evantorre
+[2018.03.12-14.02.27:266][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.12-14.02.27:266][  0]LogInit: High frequency timer resolution =3.903993 MHz
+[2018.03.12-14.02.27:267][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.12-14.02.27:267][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.12-14.02.27:267][  0]LogMemory: Process Physical Memory: 278.82 MB used, 278.82 MB peak
+[2018.03.12-14.02.27:267][  0]LogMemory: Process Virtual Memory: 282.23 MB used, 282.23 MB peak
+[2018.03.12-14.02.27:267][  0]LogMemory: Physical Memory: 6395.91 MB used,  9930.68 MB free, 16326.59 MB total
+[2018.03.12-14.02.27:267][  0]LogMemory: Virtual Memory: 714.61 MB used,  9930.68 MB free, 134217728.00 MB total
+[2018.03.12-14.02.27:410][  0]LogInit: Using OS detected language (fr-FR).
+[2018.03.12-14.02.27:410][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.03.12-14.02.27:412][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.03.12-14.02.27:412][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.03.12-14.02.27:947][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.12-14.02.27:987][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.12-14.02.27:987][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.12-14.02.27:989][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.12-14.02.27:989][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.12-14.02.27:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.12-14.02.27:994][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.12-14.02.27:994][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.12-14.02.27:994][  0]LogWindows: EnumDisplayDevices:
+[2018.03.12-14.02.27:995][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.12-14.02.27:995][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-14.02.27:995][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-14.02.27:995][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-14.02.27:995][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.12-14.02.27:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.12-14.02.27:995][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.12-14.02.27:995][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.12-14.02.27:995][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.12-14.02.28:014][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.12-14.02.28:025][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.12-14.02.28:027][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Intermediate/Shaders/WorkingDirectory/6704/).
+[2018.03.12-14.02.28:027][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/e.vantorre/AppData/Local/Temp/UnrealShaderWorkingDir/BAD53FE84710F252703504BEC426B7F2/'.
+[2018.03.12-14.02.28:027][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.12-14.02.28:804][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.12-14.02.28:844][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.12-14.02.28:885][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.12-14.02.28:925][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.12-14.02.28:965][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.12-14.02.29:007][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.12-14.02.29:048][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.12-14.02.29:089][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.12-14.02.29:125][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.12-14.02.29:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.12-14.02.29:202][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.12-14.02.29:242][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.12-14.02.29:280][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.12-14.02.29:318][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.12-14.02.29:357][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.12-14.02.29:433][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.12-14.02.29:433][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.12-14.02.29:463][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.12-14.02.29:539][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.12-14.02.29:561][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.12-14.02.29:601][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.12-14.02.29:640][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.12-14.02.29:678][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.12-14.02.29:717][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.12-14.02.29:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.12-14.02.30:099][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.12-14.02.30:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.12-14.02.30:182][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.12-14.02.30:194][  0]LogDerivedDataCache: Using Local data cache path C:/Users/e.vantorre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.12-14.02.30:202][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.12-14.02.30:202][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.12-14.02.30:202][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-14.02.30:203][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-14.02.30:414][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2018.03.12-14.02.30:502][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-14.02.30:617][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.12-14.02.30:848][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.12-14.02.30:880][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.12-14.02.30:880][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.12-14.02.30:880][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.12-14.02.30:880][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.12-14.02.30:880][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.12-14.02.31:154][  0]LogNetVersion: BraquageDeOuf , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3060105400)
+[2018.03.12-14.02.31:304][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021581 seconds
+[2018.03.12-14.02.31:309][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.12-14.02.31:309][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.03.12-14.02.31:309][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.12-14.02.31:358][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.12-14.02.33:364][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.12-14.02.33:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.12-14.02.33:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.12-14.02.34:296][  0]SourceControl: Source control is disabled
+[2018.03.12-14.02.34:296][  0]SourceControl: Source control is disabled
+[2018.03.12-14.02.34:335][  0]SourceControl: Source control is disabled
+[2018.03.12-14.02.34:373][  0]SourceControl: Source control is disabled
+[2018.03.12-14.02.34:837][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.12-14.02.35:033][  0]LogOcInput: OculusInput pre-init called
+[2018.03.12-14.02.35:236][  0]LogEngine: Initializing Engine...
+[2018.03.12-14.02.35:237][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.12-14.02.35:401][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.12-14.02.35:401][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.12-14.02.35:502][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.12-14.02.35:510][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.02.35:521][  0]LogInit: FAudioDevice initialized.
+[2018.03.12-14.02.35:665][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.12-14.02.35:676][  0]LogInit: Texture streaming: Enabled
+[2018.03.12-14.02.35:802][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.12-14.02.35:981][  0]LogInit: Transaction tracking system initialized
+[2018.03.12-14.02.36:242][  0]BlueprintLog: New page: Editor Load
+[2018.03.12-14.02.37:002][  0]LocalizationService: Localization service is disabled
+[2018.03.12-14.02.37:619][  0]LogConsoleResponse: Display: 
+[2018.03.12-14.02.37:770][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.12-14.02.37:770][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.12-14.02.37:770][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.12-14.02.38:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' took 0.01s
+[2018.03.12-14.02.38:641][  0]SourceControl: Source control is disabled
+[2018.03.12-14.02.38:641][  0]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-14.02.38:642][  0]LightingResults: New page: Lighting Build
+[2018.03.12-14.02.38:675][  0]MapCheck: New page: Map Check
+[2018.03.12-14.02.38:675][  0]LightingResults: New page: Lighting Build
+[2018.03.12-14.02.38:961][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-14.02.38:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-14.02.38:980][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-14.02.39:025][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.897ms to complete.
+[2018.03.12-14.02.39:025][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.384
+[2018.03.12-14.02.39:092][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.12-14.02.39:176][  0]LogCollectionManager: Loaded 0 collections in 0.001581 seconds
+[2018.03.12-14.02.39:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Collections/' took 0.01s
+[2018.03.12-14.02.39:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Developers/evantorre/Collections/' took 0.01s
+[2018.03.12-14.02.39:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Collections/' took 0.01s
+[2018.03.12-14.02.39:280][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.12-14.02.39:288][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2018.03.12-14.02.39:341][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.12-14.02.39:376][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.12-14.02.39:415][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2018.03.12-14.02.39:452][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.12-14.02.39:469][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-14.02.39:471][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.12-14.02.39:474][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.12-14.02.39:555][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.12-14.02.39:733][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.12-14.02.39:734][  0]LogLoad: (Engine Initialization) Total time: 14.02 seconds
+[2018.03.12-14.02.39:734][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.12-14.02.39:734][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.12-14.02.39:760][  0]LogAssetRegistry: Asset discovery search completed in 9.3683 seconds
+[2018.03.12-14.02.39:761][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.12-14.02.39:761][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2018.03.12-14.02.39:764][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.12-14.02.39:797][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-14.02.40:765][106]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-14.03.46:379][959]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-14.03.46:396][959]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.03.46:409][959]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-14.03.46:409][959]LightingResults: New page: Lighting Build
+[2018.03.12-14.03.46:410][959]LoadErrors: New page: Loading map: DevMapEtienne.umap
+[2018.03.12-14.03.46:410][959]MapCheck: New page: Map Check
+[2018.03.12-14.03.46:411][959]LightingResults: New page: Lighting Build
+[2018.03.12-14.03.46:421][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-14.03.46:450][959]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-14.03.46:495][959]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.836ms to complete.
+[2018.03.12-14.03.46:495][959]LogFileHelpers: Loading map 'DevMapEtienne' took 0.087
+[2018.03.12-14.03.57:695][281]LogSlate: Took 0.018736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.12-14.04.02:822][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMapEtienne" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-14.04.02:883][870]LogSavePackage: Save=35.03ms
+[2018.03.12-14.04.02:884][870]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne53F11F37480EF4C0E70125B4C08324FF.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap'
+[2018.03.12-14.04.02:885][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap
+[2018.03.12-14.04.03:829][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.04.04:326][ 35]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.04.34:266][456]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.12-14.09.05:624][507]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.09.05:662][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.09.05:662][507]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:09:05 PM)
+[2018.03.12-14.09.05:663][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.09.05:664][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001591s)
+[2018.03.12-14.09.05:665][507]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.09.05:665][507]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2018.03.12-14.09.05:666][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003228s)
+[2018.03.12-14.09.05:680][507]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.09.05:688][507]LogInit: FAudioDevice initialized.
+[2018.03.12-14.09.05:735][507]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.09.05:738][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.09.05
+[2018.03.12-14.09.05:807][507]LogWorld: Bringing up level for play took: 0.070584
+[2018.03.12-14.09.05:873][507]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.03.12-14.09.05:874][507]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.695
+[2018.03.12-14.09.14:873][324]LogEditorViewport: Clicking on Actor (LMB): PlayerCharacter_C (PlayerCharacter)
+[2018.03.12-14.10.06:862][826]LogBlueprint: Warning: [Compiler SideScrollerCharacter] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.12-14.10.06:862][826]LogBlueprint: Warning: [Compiler SideScrollerCharacter] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.03.12-14.10.06:865][826]LogBlueprint: Warning: [Compiler SideScrollerCharacter] [0461.19] Compile of SideScrollerCharacter successful, but with 2 Warning(s) [in 14 ms] (/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter)
+[2018.03.12-14.10.12:909][512]LogEditorActor: Deleted Actor: PlayerCharacter_C
+[2018.03.12-14.10.12:918][512]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.12-14.10.14:221][668]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.10.14:233][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.10.14:233][668]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:10:14 PM)
+[2018.03.12-14.10.14:233][668]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.10.14:235][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001567s)
+[2018.03.12-14.10.14:236][668]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.10.14:236][668]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2018.03.12-14.10.14:236][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002902s)
+[2018.03.12-14.10.14:249][668]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.10.14:255][668]LogInit: FAudioDevice initialized.
+[2018.03.12-14.10.14:286][668]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.10.14:288][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.10.14
+[2018.03.12-14.10.14:289][668]LogWorld: Bringing up level for play took: 0.001929
+[2018.03.12-14.10.14:290][668]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.273
+[2018.03.12-14.10.23:522][767]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.10.27:693][175]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2018.03.12-14.10.28:218][175]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-14.13.00:665][683]LogSlate: Took 0.018089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.12-14.13.37:438][313]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BraquageDeOuf
+[2018.03.12-14.13.37:438][313]LogTemp: CWD: C:\UE4\UnrealProjects\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.12-14.13.37:438][313]LogTemp: Initial Dir: C:\UE4\UnrealProjects\UE_4.17
+[2018.03.12-14.13.37:438][313]LogTemp: Env CWD: C:\UE4\UnrealProjects\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.12-14.13.37:438][313]LogTemp: BranchPath = K104-0146/C/UE4/UnrealProjects/UE_4.17/Engine/Binaries --- GameBranchPath = K104-0146/C/UE4/UnrealProjects/UE_4.17/Engine/Binaries
+[2018.03.12-14.13.37:566][323]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\e.vantorre\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.12-14.14.26:215][164]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.14.26:238][164]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.26:238][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.14.26:238][164]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:14:26 PM)
+[2018.03.12-14.14.26:238][164]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.14.26:240][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001810s)
+[2018.03.12-14.14.26:241][164]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.14.26:241][164]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2018.03.12-14.14.26:242][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003221s)
+[2018.03.12-14.14.26:288][164]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.14.26:295][164]LogInit: FAudioDevice initialized.
+[2018.03.12-14.14.26:327][164]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.14.26:330][164]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.14.26
+[2018.03.12-14.14.26:330][164]LogWorld: Bringing up level for play took: 0.002145
+[2018.03.12-14.14.26:331][164]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.207
+[2018.03.12-14.14.26:331][164]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.30:090][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.30:154][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.32:591][840]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.14.32:606][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.32:607][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.14.32:607][840]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:14:32 PM)
+[2018.03.12-14.14.32:607][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.14.32:608][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001440s)
+[2018.03.12-14.14.32:609][840]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.14.32:609][840]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.03.12-14.14.32:610][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002603s)
+[2018.03.12-14.14.32:657][840]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.14.32:662][840]LogInit: FAudioDevice initialized.
+[2018.03.12-14.14.32:692][840]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.14.32:695][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.14.32
+[2018.03.12-14.14.32:695][840]LogWorld: Bringing up level for play took: 0.001817
+[2018.03.12-14.14.32:696][840]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.159
+[2018.03.12-14.14.32:696][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.37:601][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.14.37:662][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.15.26:832][745]LogSavePackage: Save=38.33ms
+[2018.03.12-14.15.26:832][745]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_Auto10A61E35A401AC90A0F1159AD8E5D5655.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto1.umap'
+[2018.03.12-14.15.26:834][745]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto1.umap
+[2018.03.12-14.15.26:841][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.072
+[2018.03.12-14.15.26:841][745]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.072
+[2018.03.12-14.19.41:613][665]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.19.41:632][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.19.41:632][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.19.41:632][665]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:19:41 PM)
+[2018.03.12-14.19.41:632][665]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.19.41:634][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001836s)
+[2018.03.12-14.19.41:635][665]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.19.41:635][665]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2018.03.12-14.19.41:635][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003148s)
+[2018.03.12-14.19.41:682][665]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.19.41:688][665]LogInit: FAudioDevice initialized.
+[2018.03.12-14.19.41:716][665]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.19.41:719][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.19.41
+[2018.03.12-14.19.41:720][665]LogWorld: Bringing up level for play took: 0.002062
+[2018.03.12-14.19.41:721][665]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.786
+[2018.03.12-14.19.41:721][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.19.47:771][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.19.47:835][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.07:222][696]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.20.07:238][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.07:239][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.20.07:239][696]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:20:07 PM)
+[2018.03.12-14.20.07:239][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.20.07:241][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2018.03.12-14.20.07:241][696]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.20.07:242][696]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.03.12-14.20.07:242][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002954s)
+[2018.03.12-14.20.07:291][696]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.20.07:296][696]LogInit: FAudioDevice initialized.
+[2018.03.12-14.20.07:326][696]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.20.07:329][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.20.07
+[2018.03.12-14.20.07:330][696]LogWorld: Bringing up level for play took: 0.003134
+[2018.03.12-14.20.07:332][696]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.827
+[2018.03.12-14.20.07:332][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.14:693][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.14:756][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.16:809][810]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.20.16:825][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.16:826][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.20.16:826][810]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:20:16 PM)
+[2018.03.12-14.20.16:826][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.20.16:828][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001728s)
+[2018.03.12-14.20.16:829][810]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.20.16:829][810]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2018.03.12-14.20.16:829][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003038s)
+[2018.03.12-14.20.16:872][810]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.20.16:877][810]LogInit: FAudioDevice initialized.
+[2018.03.12-14.20.16:908][810]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.20.16:911][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.20.16
+[2018.03.12-14.20.16:911][810]LogWorld: Bringing up level for play took: 0.001837
+[2018.03.12-14.20.16:912][810]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.408
+[2018.03.12-14.20.16:912][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.35:213][868]Cmd: SELECT NONE
+[2018.03.12-14.20.35:862][939]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.20.36:076][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.36:150][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.20.41:911][618]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.20.53:202][796]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.20.53:800][864]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.20.53:902][874]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCamera)
+[2018.03.12-14.21.00:614][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.03.12-14.21.02:326][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.03.12-14.21.02:766][855]Cmd: DELETE
+[2018.03.12-14.21.02:767][855]Cmd: ACTOR DELETE
+[2018.03.12-14.21.02:800][855]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-14.21.02:819][855]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.03.12-14.21.03:250][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.03.12-14.21.03:323][910]Cmd: DELETE
+[2018.03.12-14.21.03:323][910]Cmd: ACTOR DELETE
+[2018.03.12-14.21.03:324][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-14.21.03:340][910]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.03.12-14.21.04:212][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.03.12-14.21.04:301][ 20]Cmd: DELETE
+[2018.03.12-14.21.04:301][ 20]Cmd: ACTOR DELETE
+[2018.03.12-14.21.04:302][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-14.21.04:318][ 20]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.03.12-14.21.04:793][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.03.12-14.21.04:848][ 79]Cmd: DELETE
+[2018.03.12-14.21.04:848][ 79]Cmd: ACTOR DELETE
+[2018.03.12-14.21.04:849][ 79]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-14.21.04:863][ 79]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.03.12-14.21.06:484][273]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.21.09:720][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.03.12-14.21.11:642][818]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.21.12:742][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.03.12-14.21.19:013][654]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.21.19:689][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.03.12-14.21.37:562][791]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.21.37:577][791]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.21.37:578][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.21.37:578][791]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:21:37 PM)
+[2018.03.12-14.21.37:578][791]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.21.37:580][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001770s)
+[2018.03.12-14.21.37:581][791]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.21.37:581][791]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.03.12-14.21.37:581][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003128s)
+[2018.03.12-14.21.37:603][791]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.21.37:610][791]LogInit: FAudioDevice initialized.
+[2018.03.12-14.21.37:639][791]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.21.37:642][791]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.21.37
+[2018.03.12-14.21.37:642][791]LogWorld: Bringing up level for play took: 0.001895
+[2018.03.12-14.21.37:643][791]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.853
+[2018.03.12-14.21.37:643][791]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.21.39:731][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.21.39:775][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.23.33:998][ 66]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.03.12-14.23.36:464][312]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.23.36:481][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.23.36:481][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.23.36:482][312]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:23:36 PM)
+[2018.03.12-14.23.36:482][312]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.23.36:484][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001900s)
+[2018.03.12-14.23.36:485][312]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.23.36:485][312]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2018.03.12-14.23.36:485][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003273s)
+[2018.03.12-14.23.36:506][312]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.23.36:513][312]LogInit: FAudioDevice initialized.
+[2018.03.12-14.23.36:542][312]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.23.36:544][312]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.23.36
+[2018.03.12-14.23.36:545][312]LogWorld: Bringing up level for play took: 0.001875
+[2018.03.12-14.23.36:546][312]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.06
+[2018.03.12-14.23.36:546][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.23.39:926][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.23.39:972][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.23.44:598][246]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.24.11:932][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.24.12:460][518]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.24.15:048][797]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-14.24.15:770][864]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.24.16:895][988]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.24.16:913][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.16:914][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.24.16:914][988]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:24:16 PM)
+[2018.03.12-14.24.16:914][988]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.24.16:916][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001797s)
+[2018.03.12-14.24.16:917][988]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.24.16:917][988]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.03.12-14.24.16:917][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003027s)
+[2018.03.12-14.24.16:969][988]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.24.16:975][988]LogInit: FAudioDevice initialized.
+[2018.03.12-14.24.17:005][988]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.24.17:008][988]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.24.17
+[2018.03.12-14.24.17:009][988]LogWorld: Bringing up level for play took: 0.002024
+[2018.03.12-14.24.17:010][988]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.528
+[2018.03.12-14.24.17:010][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.18:648][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.18:716][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.24:188][818]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.24.24:204][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.24:204][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.24.24:204][818]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:24:24 PM)
+[2018.03.12-14.24.24:204][818]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.24.24:206][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001684s)
+[2018.03.12-14.24.24:207][818]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.24.24:207][818]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.03.12-14.24.24:207][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002873s)
+[2018.03.12-14.24.24:256][818]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.24.24:262][818]LogInit: FAudioDevice initialized.
+[2018.03.12-14.24.24:292][818]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.24.24:294][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.24.24
+[2018.03.12-14.24.24:295][818]LogWorld: Bringing up level for play took: 0.001721
+[2018.03.12-14.24.24:296][818]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.186
+[2018.03.12-14.24.24:296][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.32:260][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.24.32:328][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.26.23:671][ 62]LogSavePackage: Save=45.98ms
+[2018.03.12-14.26.23:671][ 62]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_Auto268D3D2E84564A12DE6E6B7A89B14F311.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto2.umap'
+[2018.03.12-14.26.23:673][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto2.umap
+[2018.03.12-14.26.23:677][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.083
+[2018.03.12-14.26.23:677][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.083
+[2018.03.12-14.26.23:681][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.03.12-14.26.23:699][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.03.12-14.26.23:699][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2018.03.12-14.26.23:780][ 62]LogSavePackage: Save=73.67ms
+[2018.03.12-14.26.23:780][ 62]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacter_Auto200B60196425D6D6B07D48ABB26EAC679.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2018.03.12-14.26.23:782][ 62]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2018.03.12-14.26.23:783][ 62]LogFileHelpers: Auto-saving content packages took 0.103
+[2018.03.12-14.27.33:262][761]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.27.33:279][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.27.33:280][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.27.33:280][761]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:27:33 PM)
+[2018.03.12-14.27.33:280][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.27.33:282][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001922s)
+[2018.03.12-14.27.33:283][761]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.27.33:283][761]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2018.03.12-14.27.33:284][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003578s)
+[2018.03.12-14.27.33:333][761]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.27.33:340][761]LogInit: FAudioDevice initialized.
+[2018.03.12-14.27.33:371][761]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.27.33:375][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.27.33
+[2018.03.12-14.27.33:376][761]LogWorld: Bringing up level for play took: 0.003608
+[2018.03.12-14.27.33:378][761]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.914
+[2018.03.12-14.27.33:379][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.27.40:812][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.27.40:876][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.07:391][815]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.28.07:408][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.07:408][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.28.07:408][815]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:28:07 PM)
+[2018.03.12-14.28.07:408][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.28.07:410][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001737s)
+[2018.03.12-14.28.07:411][815]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.28.07:411][815]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2018.03.12-14.28.07:412][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003210s)
+[2018.03.12-14.28.07:458][815]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.28.07:465][815]LogInit: FAudioDevice initialized.
+[2018.03.12-14.28.07:493][815]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.28.07:496][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.28.07
+[2018.03.12-14.28.07:497][815]LogWorld: Bringing up level for play took: 0.002139
+[2018.03.12-14.28.07:498][815]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 1.037
+[2018.03.12-14.28.07:498][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.12:303][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.12:368][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.16:450][831]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.28.23:504][636]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.28.23:521][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.23:521][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.28.23:521][636]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:28:23 PM)
+[2018.03.12-14.28.23:521][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.28.23:524][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002144s)
+[2018.03.12-14.28.23:525][636]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.28.23:525][636]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2018.03.12-14.28.23:525][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003842s)
+[2018.03.12-14.28.23:575][636]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.28.23:581][636]LogInit: FAudioDevice initialized.
+[2018.03.12-14.28.23:610][636]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.28.23:612][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.28.23
+[2018.03.12-14.28.23:613][636]LogWorld: Bringing up level for play took: 0.001834
+[2018.03.12-14.28.23:614][636]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.845
+[2018.03.12-14.28.23:614][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.24:402][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.24:482][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.28.26:423][943]MapCheck: New page: Map Check
+[2018.03.12-14.28.26:432][943]LightingResults: New page: Lighting Build - Mar 12, 2018, 4:28:26 PM
+[2018.03.12-14.28.26:480][943]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-14.28.26:544][943]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-14.28.26:568][943]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-14.28.27:638][943]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-14.28.27:639][943]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6704
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-14.28.30:479][943]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-14.28.30:570][943]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-14.28.32:390][ 33]Job is a success!
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.12-14.28.32:483][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2018.03.12-14.28.32:513][ 35]Lightmass on K104-0146: 695 ms total, 120 ms importing, 17 ms setup, 270 ms photons, 266 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 1.70 sec total, 312 ms processing.
+[2018.03.12-14.28.32:537][ 35]LogStaticLightingSystem: Illumination: 6.09 sec (27 ms encoding lightmaps, 13 ms encoding shadowmaps)
+[2018.03.12-14.28.32:538][ 35]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-14.28.32:538][ 35]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-14.28.33:481][ 35]DumpUnbuiltLightIteractions
+[2018.03.12-14.28.33:481][ 35]Lights with unbuilt interactions: 0
+[2018.03.12-14.28.33:481][ 35]
+[2018.03.12-14.28.33:481][ 35]Primitives with unbuilt interactions: 0
+[2018.03.12-14.28.33:585][ 36]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-14.28.33:585][ 36]MapCheck: New page: DevMapEtienne - Mar 12, 2018, 4:28:33 PM
+[2018.03.12-14.28.33:642][ 36]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.164ms to complete.
+[2018.03.12-14.30.10:965][ 29]SourceControl: Source control is disabled
+[2018.03.12-14.30.36:989][150]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.30.37:014][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.30.37:015][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.30.37:015][150]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:30:37 PM)
+[2018.03.12-14.30.37:015][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.30.37:017][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001859s)
+[2018.03.12-14.30.37:018][150]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.30.37:018][150]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2018.03.12-14.30.37:019][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003645s)
+[2018.03.12-14.30.37:066][150]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.30.37:072][150]LogInit: FAudioDevice initialized.
+[2018.03.12-14.30.37:101][150]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.30.37:104][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.30.37
+[2018.03.12-14.30.37:104][150]LogWorld: Bringing up level for play took: 0.002061
+[2018.03.12-14.30.37:105][150]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.659
+[2018.03.12-14.30.37:105][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.30.37:777][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.30.37:845][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.30.38:671][315]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.30.39:686][434]LogEditorViewport: Clicking on Actor (context menu): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.30.40:524][525]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.31.26:908][798]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.03.12-14.31.31:673][260]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.31.31:689][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.31.31:690][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.31.31:690][260]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:31:31 PM)
+[2018.03.12-14.31.31:690][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.31.31:692][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001608s)
+[2018.03.12-14.31.31:693][260]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.31.31:693][260]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.03.12-14.31.31:693][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002863s)
+[2018.03.12-14.31.31:740][260]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.31.31:746][260]LogInit: FAudioDevice initialized.
+[2018.03.12-14.31.31:775][260]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.31.31:778][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.31.31
+[2018.03.12-14.31.31:778][260]LogWorld: Bringing up level for play took: 0.001925
+[2018.03.12-14.31.31:779][260]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.662
+[2018.03.12-14.31.31:779][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.32.27:782][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.32.27:857][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.32.41:071][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.12-14.32.41:140][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.12-14.33.13:983][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerCharacter" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset" SILENT=true
+[2018.03.12-14.33.14:003][829]LogSavePackage: Save=16.80ms
+[2018.03.12-14.33.14:003][829]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/PlayerCharacterA9A847564DA9344C34B203B9CA35A1CC.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset'
+[2018.03.12-14.33.14:006][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset
+[2018.03.12-14.33.59:767][749]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-14.34.23:303][216]BlueprintLog: New page: Compile PlayerCharacter
+[2018.03.12-14.34.34:704][218]BlueprintLog: New page: Compile PlayerCharacter
+[2018.03.12-14.34.45:053][389]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.34.45:074][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.34.45:074][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.34.45:074][389]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:34:45 PM)
+[2018.03.12-14.34.45:074][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.34.45:076][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001847s)
+[2018.03.12-14.34.45:077][389]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.34.45:077][389]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2018.03.12-14.34.45:077][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003238s)
+[2018.03.12-14.34.45:098][389]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.34.45:105][389]LogInit: FAudioDevice initialized.
+[2018.03.12-14.34.45:132][389]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.34.45:135][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.34.45
+[2018.03.12-14.34.45:135][389]LogWorld: Bringing up level for play took: 0.002269
+[2018.03.12-14.34.45:136][389]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.713
+[2018.03.12-14.34.45:137][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.34.52:548][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.34.52:610][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.35.43:646][893]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-14.37.43:798][681]LogSavePackage: Save=49.15ms
+[2018.03.12-14.37.43:798][681]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_Auto3B48FB8CB466CE1FB1BBC92AB017F43F5.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto3.umap'
+[2018.03.12-14.37.43:800][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto3.umap
+[2018.03.12-14.37.43:803][681]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.106
+[2018.03.12-14.37.43:803][681]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2018.03.12-14.37.43:805][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PlayerCharacter] ([1] browsable assets)...
+[2018.03.12-14.37.43:851][681]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PlayerCharacter.PlayerCharacter]
+[2018.03.12-14.37.43:851][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayerCharacter]
+[2018.03.12-14.37.43:882][681]LogSavePackage: Save=24.01ms
+[2018.03.12-14.37.43:883][681]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/PlayerCharacter_Auto39A00419C470FD0E525CC68AC892FD36F.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Blueprints/PlayerCharacter_Auto3.uasset'
+[2018.03.12-14.37.43:885][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Blueprints/PlayerCharacter_Auto3.uasset
+[2018.03.12-14.37.43:885][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.03.12-14.37.43:931][681]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.03.12-14.37.43:931][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2018.03.12-14.37.43:964][681]LogSavePackage: Save=26.32ms
+[2018.03.12-14.37.43:964][681]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacter_Auto3B6EBA2764189F1B58BB58AB2050A79A2.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto3.uasset'
+[2018.03.12-14.37.43:966][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto3.uasset
+[2018.03.12-14.37.43:967][681]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/DevMapEtienne_BuiltData] ([1] browsable assets)...
+[2018.03.12-14.37.43:967][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/DevMapEtienne_BuiltData]
+[2018.03.12-14.37.43:977][681]LogSavePackage: Save=7.73ms
+[2018.03.12-14.37.43:977][681]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_BuiltData_Auto3404453B84388B025AF939C84D7D6D9A4.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_BuiltData_Auto3.uasset'
+[2018.03.12-14.37.43:978][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_BuiltData_Auto3.uasset
+[2018.03.12-14.37.43:978][681]LogFileHelpers: Auto-saving content packages took 0.174
+[2018.03.12-14.41.26:439][304]LogSavePackage: Save=20.60ms
+[2018.03.12-14.41.26:439][304]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacterDAF505144CAF6B59B6117293805F02DB.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2018.03.12-14.41.26:445][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2018.03.12-14.41.30:281][698]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.41.30:296][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.30:297][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.41.30:297][698]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:41:30 PM)
+[2018.03.12-14.41.30:297][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.41.30:299][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002024s)
+[2018.03.12-14.41.30:300][698]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.41.30:300][698]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2018.03.12-14.41.30:301][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003637s)
+[2018.03.12-14.41.30:324][698]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.41.30:330][698]LogInit: FAudioDevice initialized.
+[2018.03.12-14.41.30:362][698]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.41.30:365][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.41.30
+[2018.03.12-14.41.30:365][698]LogWorld: Bringing up level for play took: 0.002372
+[2018.03.12-14.41.30:366][698]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.019
+[2018.03.12-14.41.30:367][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.31:665][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.31:733][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.35:614][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.35:614][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.41.35:614][305]PIE: New page: SIE session: DevMapEtienne (Mar 12, 2018, 4:41:35 PM)
+[2018.03.12-14.41.35:614][305]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.41.35:617][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002031s)
+[2018.03.12-14.41.35:617][305]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.41.35:618][305]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.03.12-14.41.35:618][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003484s)
+[2018.03.12-14.41.35:638][305]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.41.35:644][305]LogInit: FAudioDevice initialized.
+[2018.03.12-14.41.35:673][305]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-14.41.35:676][305]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.41.35
+[2018.03.12-14.41.35:676][305]LogWorld: Bringing up level for play took: 0.002353
+[2018.03.12-14.41.35:689][305]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.12-14.41.35:690][305]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.695
+[2018.03.12-14.41.35:722][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.37:505][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.41.37:570][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.43.43:136][275]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BraquageDeOuf
+[2018.03.12-14.43.43:136][275]LogTemp: CWD: C:\UE4\UnrealProjects\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.12-14.43.43:136][275]LogTemp: Initial Dir: C:\UE4\UnrealProjects\UE_4.17
+[2018.03.12-14.43.43:136][275]LogTemp: Env CWD: C:\UE4\UnrealProjects\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.12-14.43.43:136][275]LogTemp: BranchPath = K104-0146/C/UE4/UnrealProjects/UE_4.17/Engine/Binaries --- GameBranchPath = K104-0146/C/UE4/UnrealProjects/UE_4.17/Engine/Binaries
+[2018.03.12-14.43.43:150][276]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\e.vantorre\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.12-14.43.47:605][662]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-14.43.55:487][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.43.55:487][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.43.55:488][445]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:43:55 PM)
+[2018.03.12-14.43.55:488][445]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.43.55:490][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002279s)
+[2018.03.12-14.43.55:491][445]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.43.55:491][445]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.03.12-14.43.55:492][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003881s)
+[2018.03.12-14.43.55:515][445]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.43.55:521][445]LogInit: FAudioDevice initialized.
+[2018.03.12-14.43.55:554][445]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.43.55:557][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.43.55
+[2018.03.12-14.43.55:558][445]LogWorld: Bringing up level for play took: 0.002732
+[2018.03.12-14.43.55:559][445]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.812
+[2018.03.12-14.43.55:560][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.43.57:667][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.43.57:736][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.44.16:665][930]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.44.16:679][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.44.16:679][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.44.16:680][930]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:44:16 PM)
+[2018.03.12-14.44.16:680][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.44.16:682][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001800s)
+[2018.03.12-14.44.16:682][930]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.44.16:683][930]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2018.03.12-14.44.16:683][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003171s)
+[2018.03.12-14.44.16:703][930]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.44.16:709][930]LogInit: FAudioDevice initialized.
+[2018.03.12-14.44.16:736][930]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.44.16:739][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.44.16
+[2018.03.12-14.44.16:740][930]LogWorld: Bringing up level for play took: 0.002387
+[2018.03.12-14.44.16:742][930]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.372
+[2018.03.12-14.44.16:742][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.00:705][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.00:745][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.38:104][775]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.46.38:118][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.38:119][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.46.38:119][775]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:46:38 PM)
+[2018.03.12-14.46.38:119][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.46.38:122][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002295s)
+[2018.03.12-14.46.38:123][775]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.46.38:123][775]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2018.03.12-14.46.38:123][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003884s)
+[2018.03.12-14.46.38:145][775]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.46.38:151][775]LogInit: FAudioDevice initialized.
+[2018.03.12-14.46.38:178][775]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.46.38:181][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.46.38
+[2018.03.12-14.46.38:182][775]LogWorld: Bringing up level for play took: 0.002462
+[2018.03.12-14.46.38:183][775]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.173
+[2018.03.12-14.46.38:183][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.46:264][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.46.46:306][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.47.07:274][213]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.03.12-14.47.08:780][364]Cmd: DELETE
+[2018.03.12-14.47.08:780][364]Cmd: ACTOR DELETE
+[2018.03.12-14.47.08:780][364]LogEditorActor: Deleted Actor: SideScrollerCharacter_C
+[2018.03.12-14.47.08:826][364]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.03.12-14.47.09:256][415]LogEditorViewport: Clicking on Actor (LMB): PlayerCharacter_C (PlayerCharacter)
+[2018.03.12-14.47.09:503][437]Cmd: DELETE
+[2018.03.12-14.47.09:503][437]Cmd: ACTOR DELETE
+[2018.03.12-14.47.09:503][437]LogEditorActor: Deleted Actor: PlayerCharacter_C
+[2018.03.12-14.47.09:520][437]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.03.12-14.47.59:955][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.47.59:975][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.47.59:975][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.47.59:975][ 42]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:47:59 PM)
+[2018.03.12-14.47.59:976][ 42]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.47.59:977][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2018.03.12-14.47.59:978][ 42]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.47.59:979][ 42]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2018.03.12-14.47.59:979][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003376s)
+[2018.03.12-14.48.00:001][ 42]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.48.00:008][ 42]LogInit: FAudioDevice initialized.
+[2018.03.12-14.48.00:041][ 42]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.48.00:043][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.48.00
+[2018.03.12-14.48.00:043][ 42]LogWorld: Bringing up level for play took: 0.001267
+[2018.03.12-14.48.00:045][ 42]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.304
+[2018.03.12-14.48.00:045][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.49.35:258][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.49.35:292][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.49.35:453][341]Cmd: SELECT NONE
+[2018.03.12-14.51.21:847][230]LogSavePackage: Save=30.07ms
+[2018.03.12-14.51.21:847][230]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_Auto4E52258F94BC928B6D0A0D08A8B3C7DA2.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto4.umap'
+[2018.03.12-14.51.21:848][230]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMapEtienne_Auto4.umap
+[2018.03.12-14.51.21:851][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.067
+[2018.03.12-14.51.21:851][230]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.067
+[2018.03.12-14.55.30:892][419]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.03.12-14.55.33:014][650]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.55.33:034][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.55.33:034][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.55.33:034][650]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:55:33 PM)
+[2018.03.12-14.55.33:034][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.55.33:036][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001610s)
+[2018.03.12-14.55.33:037][650]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.55.33:037][650]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2018.03.12-14.55.33:038][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003190s)
+[2018.03.12-14.55.33:057][650]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.55.33:064][650]LogInit: FAudioDevice initialized.
+[2018.03.12-14.55.33:093][650]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.55.33:095][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.55.33
+[2018.03.12-14.55.33:095][650]LogWorld: Bringing up level for play took: 0.001491
+[2018.03.12-14.55.33:097][650]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.79
+[2018.03.12-14.55.33:097][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.55.40:318][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.55.40:349][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.56.37:037][128]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.03.12-14.56.39:197][365]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-14.56.39:216][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.56.39:217][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-14.56.39:217][365]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 4:56:39 PM)
+[2018.03.12-14.56.39:217][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-14.56.39:219][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001556s)
+[2018.03.12-14.56.39:219][365]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-14.56.39:220][365]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.03.12-14.56.39:220][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.002790s)
+[2018.03.12-14.56.39:240][365]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-14.56.39:246][365]LogInit: FAudioDevice initialized.
+[2018.03.12-14.56.39:276][365]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-14.56.39:278][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-15.56.39
+[2018.03.12-14.56.39:279][365]LogWorld: Bringing up level for play took: 0.001112
+[2018.03.12-14.56.39:280][365]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne 0.98
+[2018.03.12-14.56.39:281][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.57.04:685][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-14.57.04:718][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-15.01.55:314][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.030
+[2018.03.12-15.01.55:315][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.03.12-15.01.55:363][986]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.03.12-15.01.55:363][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2018.03.12-15.01.55:406][986]LogSavePackage: Save=34.87ms
+[2018.03.12-15.01.55:406][986]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacter_Auto5DFD6594D4AE03F30A1979AA289296D9C.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto5.uasset'
+[2018.03.12-15.01.55:408][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto5.uasset
+[2018.03.12-15.01.55:409][986]LogFileHelpers: Auto-saving content packages took 0.094
+[2018.03.12-15.04.34:236][465]LogSavePackage: Save=29.33ms
+[2018.03.12-15.04.34:237][465]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacter6440FDA1445B32A9C9511E97D02D0682.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2018.03.12-15.04.34:240][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2018.03.12-15.04.36:517][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerCharacter" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset" SILENT=true
+[2018.03.12-15.04.36:541][731]LogSavePackage: Save=17.67ms
+[2018.03.12-15.04.36:541][731]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/PlayerCharacter7F34C84F416836B63389A084307D296A.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset'
+[2018.03.12-15.04.36:547][731]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Blueprints/PlayerCharacter.uasset
+[2018.03.12-15.04.50:003][275]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-15.04.50:024][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-15.04.50:025][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-15.04.50:025][275]PIE: New page: PIE session: DevMapEtienne (Mar 12, 2018, 5:04:50 PM)
+[2018.03.12-15.04.50:025][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMapEtienne
+[2018.03.12-15.04.50:027][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001851s)
+[2018.03.12-15.04.50:028][275]LogAIModule: Creating AISystem for world DevMapEtienne
+[2018.03.12-15.04.50:028][275]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2018.03.12-15.04.50:028][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMapEtienne.DevMapEtienne to /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne (0.003304s)
+[2018.03.12-15.04.50:051][275]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-15.04.50:059][275]LogInit: FAudioDevice initialized.
+[2018.03.12-15.04.50:091][275]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.03.12-15.04.50:092][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMapEtienne.DevMapEtienne up for play (max tick rate 0) at 2018.03.12-16.04.50
+[2018.03.12-15.04.50:093][275]LogWorld: Bringing up level for play took: 0.001188
+[2018.03.12-15.04.50:094][275]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_DevMapEtienne -0.16
+[2018.03.12-15.04.50:095][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-15.04.56:142][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-15.04.56:173][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne' with GeneratedClass '/Game/Maps/DevMapEtienne.DevMapEtienne_C' with ClassGeneratedBy '/Game/Maps/DevMapEtienne.DevMapEtienne:PersistentLevel.DevMapEtienne'
+[2018.03.12-15.05.03:925][853]LogSavePackage: Save=28.17ms
+[2018.03.12-15.05.03:925][853]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/SideScrollerCharacterA453B09E44221920F46D7C9BBFC5B32D.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2018.03.12-15.05.03:928][853]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2018.03.12-15.08.21:876][368]LogUProjectInfo: Found projects:
+[2018.03.12-15.08.23:246][531]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.03.12-15.08.26:046][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMapEtienne" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-15.08.26:097][531]LogSavePackage: Save=28.60ms
+[2018.03.12-15.08.26:097][531]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienneA7642EB24C63601D6DCD4B91DD9F48F6.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap'
+[2018.03.12-15.08.26:146][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap
+[2018.03.12-15.08.26:205][531]LogFileHelpers: Saving map 'DevMapEtienne' took 0.213
+[2018.03.12-15.08.26:207][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMapEtienne_BuiltData" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne_BuiltData.uasset" SILENT=true
+[2018.03.12-15.08.26:225][531]LogSavePackage: Save=15.82ms
+[2018.03.12-15.08.26:225][531]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne_BuiltData63EAE56F495DC7716667D4B26DFBE244.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne_BuiltData.uasset'
+[2018.03.12-15.08.26:229][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne_BuiltData.uasset
+[2018.03.12-15.08.26:351][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.12-15.08.26:407][531]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.12-15.08.26:606][532]Cmd: QUIT_EDITOR
+[2018.03.12-15.08.27:660][532]LogExit: Preparing to exit.
+[2018.03.12-15.08.28:347][532]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' was aborted.
+[2018.03.12-15.08.28:426][532]LogExit: Editor shut down
+[2018.03.12-15.08.28:439][532]LogExit: Transaction tracking system shut down
+[2018.03.12-15.08.28:567][532]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.12-15.08.28:567][532]LogDirectoryWatcher: A directory notification for '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' was aborted.
+[2018.03.12-15.08.28:567][532]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.12-15.08.28:567][532]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.12-15.08.28:567][532]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.12-15.08.28:702][532]LogExit: Object subsystem successfully closed.
+[2018.03.12-15.08.28:731][532]LogD3D11RHI: Shutdown
+[2018.03.12-15.08.28:731][532]LogD3D11RHI: CleanupD3DDevice
+[2018.03.12-15.08.28:864][532]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module WorldBrowser (528)
+[2018.03.12-15.08.28:876][532]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.03.12-15.08.28:876][532]LogDirectoryWatcher: A directory notification for 'C:/UE4/UnrealProjects/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.03.12-15.08.28:881][532]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Collections/' was aborted.
+[2018.03.12-15.08.28:881][532]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Developers/evantorre/Collections/' was aborted.
+[2018.03.12-15.08.28:881][532]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Collections/' was aborted.
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.03.12-15.08.28:881][532]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.03.12-15.08.28:882][532]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.03.12-15.08.29:238][532]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.03.12-15.08.29:238][532]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.03.12-15.08.29:239][532]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.03.12-15.08.29:240][532]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.03.12-15.08.29:293][532]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.03.12-15.08.29:300][532]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.03.12-15.08.29:301][532]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.03.12-15.08.29:301][532]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.03.12-15.08.29:301][532]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.03.12-15.08.29:302][532]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.03.12-15.08.29:439][532]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.03.12-15.08.29:440][532]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.12-15.08.29:441][532]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.12-15.08.29:542][532]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.12-15.08.29:642][532]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.12-15.08.29:646][532]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.12-15.08.29:646][532]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.12-15.08.29:646][532]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.12-15.08.29:646][532]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.12-15.08.29:648][532]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.12-15.08.29:649][532]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.03.12-15.08.29:652][532]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.03.12-15.08.29:653][532]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.03.12-15.08.29:653][532]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.03.12-15.08.29:653][532]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.12-15.08.29:658][532]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.12-15.08.29:715][532]LogDerivedDataCache: Shutdown
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.12-15.08.29:715][532]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.12-15.08.29:716][532]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.12-15.08.29:716][532]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.12-15.08.29:716][532]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.12-15.08.29:716][532]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B680B60AC-4BAE-76E7-8A56-CAA0FBE87912%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=0268f9e74f6ff668c3afdf90e3bcef94%7C%7C8ca5eff5-f204-42a9-a4d4-b57f9935787c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.12-15.08.29:744][532]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.12-15.08.29:746][532]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.12-15.08.29:750][532]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.12-15.08.29:753][532]LogExit: Exiting.
+[2018.03.12-15.08.29:819][532]Log file closed, 03/12/18 16:08:29
