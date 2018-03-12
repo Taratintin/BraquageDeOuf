@@ -1,0 +1,1379 @@
+﻿Log file open, 03/12/18 12:09:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BraquageDeOuf
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(157520863) SRandInit(157520864).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.161778
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/UE4/UnrealProjects/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.12-11.09.21:560][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-11.09.21:560][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.12-11.09.21:588][  0]LogInit: Computer: K104-0146
+[2018.03.12-11.09.21:588][  0]LogInit: User: evantorre
+[2018.03.12-11.09.21:588][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.12-11.09.21:588][  0]LogInit: High frequency timer resolution =3.903993 MHz
+[2018.03.12-11.09.21:588][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.12-11.09.21:588][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.12-11.09.21:588][  0]LogMemory: Process Physical Memory: 278.23 MB used, 278.23 MB peak
+[2018.03.12-11.09.21:588][  0]LogMemory: Process Virtual Memory: 274.22 MB used, 274.22 MB peak
+[2018.03.12-11.09.21:588][  0]LogMemory: Physical Memory: 5821.93 MB used,  10504.66 MB free, 16326.59 MB total
+[2018.03.12-11.09.21:588][  0]LogMemory: Virtual Memory: 706.61 MB used,  10504.66 MB free, 134217728.00 MB total
+[2018.03.12-11.09.21:715][  0]LogInit: Using OS detected language (fr-FR).
+[2018.03.12-11.09.21:715][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.03.12-11.09.21:717][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.03.12-11.09.21:718][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.03.12-11.09.22:240][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.12-11.09.22:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.12-11.09.22:271][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.12-11.09.22:272][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.12-11.09.22:272][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.12-11.09.22:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.12-11.09.22:278][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.12-11.09.22:278][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.12-11.09.22:278][  0]LogWindows: EnumDisplayDevices:
+[2018.03.12-11.09.22:278][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.12-11.09.22:278][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-11.09.22:278][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-11.09.22:278][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.12-11.09.22:278][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.12-11.09.22:278][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.12-11.09.22:278][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.12-11.09.22:278][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.12-11.09.22:278][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.12-11.09.22:296][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.12-11.09.22:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.12-11.09.22:311][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Intermediate/Shaders/WorkingDirectory/7208/).
+[2018.03.12-11.09.22:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/e.vantorre/AppData/Local/Temp/UnrealShaderWorkingDir/1DD314DC4D3B5BFD356D1286A7CB6931/'.
+[2018.03.12-11.09.22:311][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.12-11.09.23:221][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.12-11.09.23:261][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.12-11.09.23:301][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.12-11.09.23:341][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.12-11.09.23:380][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.12-11.09.23:419][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.12-11.09.23:458][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.12-11.09.23:497][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.12-11.09.23:531][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.12-11.09.23:568][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.12-11.09.23:607][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.12-11.09.23:645][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.12-11.09.23:683][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.12-11.09.23:721][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.12-11.09.23:772][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.12-11.09.23:849][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.12-11.09.23:849][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.12-11.09.23:879][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.12-11.09.23:954][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.12-11.09.23:975][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.12-11.09.24:013][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.12-11.09.24:050][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.12-11.09.24:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.12-11.09.24:125][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.12-11.09.24:125][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.12-11.09.24:485][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.12-11.09.24:553][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.12-11.09.24:565][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.12-11.09.24:577][  0]LogDerivedDataCache: Using Local data cache path C:/Users/e.vantorre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.12-11.09.24:585][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.12-11.09.24:586][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.12-11.09.24:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-11.09.24:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.12-11.09.24:796][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.03.12-11.09.24:884][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.12-11.09.25:011][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.12-11.09.25:248][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.12-11.09.25:283][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.12-11.09.25:283][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.12-11.09.25:283][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.12-11.09.25:283][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.12-11.09.25:283][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.12-11.09.25:574][  0]LogNetVersion: BraquageDeOuf , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3060105400)
+[2018.03.12-11.09.25:727][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019263 seconds
+[2018.03.12-11.09.25:733][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.12-11.09.25:733][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.03.12-11.09.25:733][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.12-11.09.25:782][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.12-11.09.27:823][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.12-11.09.27:864][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.12-11.09.28:397][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.12-11.09.28:728][  0]SourceControl: Source control is disabled
+[2018.03.12-11.09.28:728][  0]SourceControl: Source control is disabled
+[2018.03.12-11.09.28:767][  0]SourceControl: Source control is disabled
+[2018.03.12-11.09.28:826][  0]SourceControl: Source control is disabled
+[2018.03.12-11.09.29:306][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.12-11.09.29:531][  0]LogOcInput: OculusInput pre-init called
+[2018.03.12-11.09.29:736][  0]LogEngine: Initializing Engine...
+[2018.03.12-11.09.29:737][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.12-11.09.29:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.12-11.09.29:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.12-11.09.29:999][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.12-11.09.30:006][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-11.09.30:031][  0]LogInit: FAudioDevice initialized.
+[2018.03.12-11.09.30:186][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/e.vantorre/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.12-11.09.30:222][  0]LogInit: Texture streaming: Enabled
+[2018.03.12-11.09.30:330][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.12-11.09.30:504][  0]LogInit: Transaction tracking system initialized
+[2018.03.12-11.09.30:744][  0]BlueprintLog: New page: Editor Load
+[2018.03.12-11.09.31:645][  0]LocalizationService: Localization service is disabled
+[2018.03.12-11.09.32:188][  0]LogConsoleResponse: Display: 
+[2018.03.12-11.09.32:326][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' took 0.01s
+[2018.03.12-11.09.32:326][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.12-11.09.32:326][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.12-11.09.32:326][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.12-11.09.33:156][  0]SourceControl: Source control is disabled
+[2018.03.12-11.09.33:157][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/UE4/UnrealProjects/UE_4.17/FeaturePacks/StarterContent.upack)
+[2018.03.12-11.09.33:162][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.03.12-11.09.33:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.03.12-11.09.33:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.03.12-11.09.33:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.03.12-11.09.33:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.03.12-11.09.33:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.03.12-11.09.33:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.03.12-11.09.33:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.03.12-11.09.33:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.03.12-11.09.33:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.03.12-11.09.33:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.03.12-11.09.33:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.03.12-11.09.33:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.03.12-11.09.33:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.03.12-11.09.33:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.03.12-11.09.33:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.03.12-11.09.33:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.03.12-11.09.33:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.03.12-11.09.33:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Fire01.uasset"
+[2018.03.12-11.09.33:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.03.12-11.09.33:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.03.12-11.09.33:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.03.12-11.09.33:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Light01.uasset"
+[2018.03.12-11.09.33:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.03.12-11.09.33:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Light02.uasset"
+[2018.03.12-11.09.33:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.03.12-11.09.33:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.03.12-11.09.33:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.03.12-11.09.33:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.03.12-11.09.33:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.03.12-11.09.33:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.03.12-11.09.33:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.03.12-11.09.33:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.03.12-11.09.33:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.03.12-11.09.33:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Steam01.uasset"
+[2018.03.12-11.09.33:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.03.12-11.09.33:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.03.12-11.09.33:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.03.12-11.09.33:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.03.12-11.09.33:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.03.12-11.09.33:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.03.12-11.09.33:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.03.12-11.09.33:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.03.12-11.09.33:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.03.12-11.09.33:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.03.12-11.09.33:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.03.12-11.09.33:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.03.12-11.09.33:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.03.12-11.09.33:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.03.12-11.09.33:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.03.12-11.09.33:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.03.12-11.09.33:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.03.12-11.09.34:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.03.12-11.09.34:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.03.12-11.09.34:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.03.12-11.09.34:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.03.12-11.09.34:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.03.12-11.09.34:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/StarterMap.umap"
+[2018.03.12-11.09.34:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.03.12-11.09.34:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.03.12-11.09.34:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.03.12-11.09.34:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.03.12-11.09.34:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.03.12-11.09.34:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.03.12-11.09.34:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.03.12-11.09.34:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.03.12-11.09.34:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.03.12-11.09.34:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.03.12-11.09.34:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.03.12-11.09.34:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.03.12-11.09.34:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.03.12-11.09.34:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.03.12-11.09.34:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.03.12-11.09.34:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.03.12-11.09.34:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.03.12-11.09.34:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.03.12-11.09.34:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.03.12-11.09.34:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.03.12-11.09.34:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.03.12-11.09.34:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.03.12-11.09.34:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.03.12-11.09.34:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.03.12-11.09.34:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.03.12-11.09.34:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.03.12-11.09.34:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.03.12-11.09.34:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.03.12-11.09.34:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.03.12-11.09.34:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.03.12-11.09.34:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.03.12-11.09.34:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.03.12-11.09.34:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.03.12-11.09.34:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.03.12-11.09.34:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.03.12-11.09.34:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.03.12-11.09.34:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.03.12-11.09.34:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.03.12-11.09.34:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.03.12-11.09.34:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.03.12-11.09.34:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.03.12-11.09.34:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.03.12-11.09.34:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.03.12-11.09.34:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.03.12-11.09.34:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.03.12-11.09.34:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.03.12-11.09.34:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.03.12-11.09.34:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.03.12-11.09.34:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.03.12-11.09.34:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.03.12-11.09.34:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.03.12-11.09.34:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.03.12-11.09.34:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.03.12-11.09.34:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.03.12-11.09.34:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.03.12-11.09.34:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.03.12-11.09.34:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.03.12-11.09.34:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.03.12-11.09.34:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.03.12-11.09.34:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.03.12-11.09.34:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.03.12-11.09.34:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.03.12-11.09.34:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.03.12-11.09.34:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.03.12-11.09.34:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.03.12-11.09.34:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Door.uasset"
+[2018.03.12-11.09.34:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.03.12-11.09.34:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.03.12-11.09.34:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.03.12-11.09.34:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.03.12-11.09.34:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.03.12-11.09.34:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.03.12-11.09.34:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.03.12-11.09.34:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.03.12-11.09.34:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.03.12-11.09.34:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.03.12-11.09.34:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.03.12-11.09.34:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.03.12-11.09.34:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.03.12-11.09.34:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.03.12-11.09.34:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.03.12-11.09.34:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.03.12-11.09.34:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.03.12-11.09.34:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.03.12-11.09.34:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.03.12-11.09.34:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.03.12-11.09.34:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.03.12-11.09.34:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.03.12-11.09.34:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.03.12-11.09.34:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.03.12-11.09.34:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.03.12-11.09.34:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.03.12-11.09.34:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.03.12-11.09.34:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.03.12-11.09.34:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.03.12-11.09.34:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.03.12-11.09.34:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.03.12-11.09.34:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.03.12-11.09.34:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.03.12-11.09.34:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.03.12-11.09.34:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.03.12-11.09.34:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.03.12-11.09.34:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.03.12-11.09.34:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.03.12-11.09.34:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.03.12-11.09.34:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.03.12-11.09.34:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.03.12-11.09.34:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.03.12-11.09.34:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.03.12-11.09.34:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.03.12-11.09.35:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.03.12-11.09.35:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.03.12-11.09.35:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.03.12-11.09.35:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.03.12-11.09.35:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.03.12-11.09.35:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.03.12-11.09.35:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.03.12-11.09.35:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.03.12-11.09.35:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.03.12-11.09.35:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.03.12-11.09.35:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.03.12-11.09.35:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.03.12-11.09.35:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.03.12-11.09.35:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.03.12-11.09.35:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.03.12-11.09.35:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.03.12-11.09.35:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.03.12-11.09.35:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.03.12-11.09.35:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.03.12-11.09.36:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.03.12-11.09.36:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.03.12-11.09.36:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.03.12-11.09.36:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.03.12-11.09.36:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.03.12-11.09.36:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.03.12-11.09.36:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.03.12-11.09.36:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.03.12-11.09.36:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.03.12-11.09.37:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.03.12-11.09.37:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.03.12-11.09.37:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.03.12-11.09.37:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.03.12-11.09.37:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.03.12-11.09.37:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.03.12-11.09.38:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.03.12-11.09.38:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.03.12-11.09.39:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.03.12-11.09.39:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.03.12-11.09.39:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.03.12-11.09.39:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.03.12-11.09.39:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.03.12-11.09.39:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.03.12-11.09.39:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.03.12-11.09.39:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.03.12-11.09.39:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.03.12-11.09.39:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.03.12-11.09.39:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.03.12-11.09.39:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.03.12-11.09.39:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.03.12-11.09.39:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.03.12-11.09.39:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.03.12-11.09.39:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.03.12-11.09.39:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.03.12-11.09.39:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.03.12-11.09.39:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.03.12-11.09.39:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.03.12-11.09.39:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.03.12-11.09.39:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.03.12-11.09.39:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.03.12-11.09.39:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.03.12-11.09.39:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.03.12-11.09.39:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.03.12-11.09.39:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.03.12-11.09.39:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.03.12-11.09.39:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.03.12-11.09.39:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.03.12-11.09.39:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.03.12-11.09.39:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.03.12-11.09.39:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.03.12-11.09.39:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.03.12-11.09.39:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.03.12-11.09.39:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.03.12-11.09.39:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.03.12-11.09.39:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.03.12-11.09.39:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.03.12-11.09.39:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.03.12-11.09.39:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.03.12-11.09.39:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.03.12-11.09.39:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.03.12-11.09.39:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.03.12-11.09.39:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.03.12-11.09.39:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.03.12-11.09.39:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.03.12-11.09.39:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.03.12-11.09.39:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.03.12-11.09.39:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.03.12-11.09.39:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.03.12-11.09.39:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.03.12-11.09.39:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.03.12-11.09.39:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.03.12-11.09.39:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.03.12-11.09.39:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.03.12-11.09.39:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.03.12-11.09.39:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.03.12-11.09.39:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.03.12-11.09.39:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.03.12-11.09.39:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.03.12-11.09.39:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.03.12-11.09.39:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.03.12-11.09.39:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.03.12-11.09.39:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.03.12-11.09.39:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.03.12-11.09.39:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.03.12-11.09.40:055][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.03.12-11.09.40:240][  0]LogSavePackage: Save=31.09ms
+[2018.03.12-11.09.40:240][  0]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Floor_400x40082912E8F4F2960D835E997BE7ED09C1F.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.03.12-11.09.40:245][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.03.12-11.09.40:245][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.03.12-11.09.40:249][  0]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.09.40:249][  0]LightingResults: New page: Lighting Build
+[2018.03.12-11.09.40:287][  0]MapCheck: New page: Map Check
+[2018.03.12-11.09.40:287][  0]LightingResults: New page: Lighting Build
+[2018.03.12-11.09.43:150][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.09.43:185][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.09.43:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.09.43:267][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.856ms to complete.
+[2018.03.12-11.09.43:267][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.019
+[2018.03.12-11.09.43:364][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.12-11.09.43:455][  0]LogCollectionManager: Loaded 0 collections in 0.001726 seconds
+[2018.03.12-11.09.43:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Collections/' took 0.01s
+[2018.03.12-11.09.43:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Developers/evantorre/Collections/' took 0.01s
+[2018.03.12-11.09.43:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Collections/' took 0.01s
+[2018.03.12-11.09.43:822][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.12-11.09.43:829][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2386 classes and 500 folders.
+[2018.03.12-11.09.43:878][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.12-11.09.43:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.03.12-11.09.43:950][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2018.03.12-11.09.43:984][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.12-11.09.44:000][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-11.09.44:002][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.12-11.09.44:006][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.12-11.09.44:035][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.12-11.09.44:132][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-11.09.44:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.03.12-11.09.44:285][  0]LogLoad: (Engine Initialization) Total time: 24.15 seconds
+[2018.03.12-11.09.44:286][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.12-11.09.44:286][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.12-11.09.44:312][  0]LogAssetRegistry: Asset discovery search completed in 19.5395 seconds
+[2018.03.12-11.09.44:314][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.12-11.09.44:314][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2018.03.12-11.09.44:393][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.12-11.10.18:646][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2018.03.12-11.10.21:593][419]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-11.10.21:674][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.12-11.10.21:674][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-11.10.21:675][419]PIE: New page: PIE session: Minimal_Default (Mar 12, 2018, 1:10:21 PM)
+[2018.03.12-11.10.21:675][419]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.03.12-11.10.21:681][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006166s)
+[2018.03.12-11.10.21:682][419]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.10.21:682][419]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2018.03.12-11.10.21:682][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007134s)
+[2018.03.12-11.10.21:694][419]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-11.10.21:700][419]LogInit: FAudioDevice initialized.
+[2018.03.12-11.10.21:742][419]LogLoad: Game class is 'GameModeBase'
+[2018.03.12-11.10.21:748][419]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.03.12-12.10.21
+[2018.03.12-11.10.21:748][419]LogWorld: Bringing up level for play took: 0.002827
+[2018.03.12-11.10.21:810][419]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.12-11.10.21:811][419]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.228
+[2018.03.12-11.10.21:812][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.12-11.10.45:288][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.12-11.10.45:364][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.03.12-11.10.57:720][682]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-11.11.00:126][682]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.11.00:127][682]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.00:127][682]LoadErrors: New page: Loading map: DevMap.umap
+[2018.03.12-11.11.00:128][682]MapCheck: New page: Map Check
+[2018.03.12-11.11.00:128][682]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.00:137][682]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.11.00:138][682]LogAIModule: Creating AISystem for world DevMap
+[2018.03.12-11.11.00:159][682]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.11.00:203][682]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.587ms to complete.
+[2018.03.12-11.11.00:203][682]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.12-11.11.00:207][682]LogFileHelpers: Loading map 'DevMap' took 0.083
+[2018.03.12-11.11.15:120][231]LogAIModule: Creating AISystem for world StarterMap
+[2018.03.12-11.11.17:883][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-11.11.17:901][231]LogSavePackage: Save=6.85ms
+[2018.03.12-11.11.17:901][231]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap91DD875E42E5632B9A52ECBAB62FDA5C.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap'
+[2018.03.12-11.11.17:903][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap
+[2018.03.12-11.11.17:912][231]LogFileHelpers: Saving map 'DevMap' took 0.091
+[2018.03.12-11.11.17:914][231]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.11.17:914][231]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.17:914][231]LoadErrors: New page: Loading map: StarterMap.umap
+[2018.03.12-11.11.17:915][231]MapCheck: New page: Map Check
+[2018.03.12-11.11.17:915][231]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.17:934][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.11.17:957][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.11.18:018][231]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.182ms to complete.
+[2018.03.12-11.11.18:018][231]LogFileHelpers: Loading map 'StarterMap' took 0.106
+[2018.03.12-11.11.29:015][464]Cmd: EDIT COPY
+[2018.03.12-11.11.30:715][668]Cmd: EDIT COPY
+[2018.03.12-11.11.43:683][220]LogAIModule: Creating AISystem for world DevMap
+[2018.03.12-11.11.43:693][220]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.11.43:693][220]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.43:693][220]LoadErrors: New page: Loading map: DevMap.umap
+[2018.03.12-11.11.43:696][220]MapCheck: New page: Map Check
+[2018.03.12-11.11.43:696][220]LightingResults: New page: Lighting Build
+[2018.03.12-11.11.43:708][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.11.43:730][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.11.43:791][220]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.588ms to complete.
+[2018.03.12-11.11.43:791][220]LogFileHelpers: Loading map 'DevMap' took 0.099
+[2018.03.12-11.11.45:511][425]LogEditorViewport: Clicking Background
+[2018.03.12-11.11.45:911][473]Cmd: EDIT PASTE
+[2018.03.12-11.12.13:421][761]MapCheck: New page: Map Check
+[2018.03.12-11.12.13:431][761]LightingResults: New page: Lighting Build - Mar 12, 2018, 1:12:13 PM
+[2018.03.12-11.12.13:474][761]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-11.12.13:525][761]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-11.12.13:533][761]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-11.12.14:059][761]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-11.12.14:059][761]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7208
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-11.12.17:271][761]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-11.12.17:386][761]LogEditorBuildUtils: Build time 0:03
+[2018.03.12-11.12.19:023][820]Job is a success!
+[2018.03.12-11.12.19:205][822]Lightmass on K104-0146: 572 ms total, 87 ms importing, 16 ms setup, 270 ms photons, 182 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.11 sec total, 0 ms processing.
+[2018.03.12-11.12.19:251][822]LogStaticLightingSystem: Illumination: 5.80 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.03.12-11.12.19:251][822]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.03.12-11.12.19:251][822]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.03.12-11.12.19:273][822]DumpUnbuiltLightIteractions
+[2018.03.12-11.12.19:273][822]Lights with unbuilt interactions: 0
+[2018.03.12-11.12.19:273][822]
+[2018.03.12-11.12.19:273][822]Primitives with unbuilt interactions: 0
+[2018.03.12-11.12.19:281][823]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-11.12.19:281][823]MapCheck: New page: DevMap - Mar 12, 2018, 1:12:19 PM
+[2018.03.12-11.12.19:362][823]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.539ms to complete.
+[2018.03.12-11.12.53:453][884]LogActorFactory: Actor Factory created Cube
+[2018.03.12-11.12.54:921][ 59]LogActorFactory: Actor Factory created Cube
+[2018.03.12-11.12.56:478][237]MapCheck: New page: Map Check
+[2018.03.12-11.12.56:488][237]LightingResults: New page: Lighting Build - Mar 12, 2018, 1:12:56 PM
+[2018.03.12-11.12.56:495][237]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-11.12.56:496][237]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-11.12.56:497][237]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-11.12.56:497][237]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-11.12.56:497][237]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7208
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-11.13.01:048][237]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-11.13.01:154][237]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-11.13.02:528][304]Job is a success!
+[2018.03.12-11.13.02:578][306]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.12-11.13.02:578][306]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.12-11.13.02:578][306]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2018.03.12-11.13.02:594][306]Lightmass on K104-0146: 602 ms total, 86 ms importing, 27 ms setup, 269 ms photons, 200 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.24 sec total, 14 ms processing.
+[2018.03.12-11.13.02:597][306]LogStaticLightingSystem: Illumination: 6.09 sec (2 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2018.03.12-11.13.02:597][306]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-11.13.02:597][306]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.12-11.13.03:049][306]DumpUnbuiltLightIteractions
+[2018.03.12-11.13.03:049][306]Lights with unbuilt interactions: 0
+[2018.03.12-11.13.03:049][306]
+[2018.03.12-11.13.03:049][306]Primitives with unbuilt interactions: 0
+[2018.03.12-11.13.03:073][307]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-11.13.03:073][307]MapCheck: New page: DevMap - Mar 12, 2018, 1:13:03 PM
+[2018.03.12-11.13.03:162][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.012ms to complete.
+[2018.03.12-11.13.23:629][743]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.13.26:657][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-11.13.26:681][743]LogSavePackage: Save=9.36ms
+[2018.03.12-11.13.26:681][743]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap69BDB41A410410D67280BEB4E808301F.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap'
+[2018.03.12-11.13.26:684][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap
+[2018.03.12-11.13.26:697][743]LogFileHelpers: Saving map 'DevMap' took 0.103
+[2018.03.12-11.13.26:697][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap_BuiltData" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset" SILENT=true
+[2018.03.12-11.13.26:706][743]LogSavePackage: Save=7.38ms
+[2018.03.12-11.13.26:706][743]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap_BuiltDataCB9CFC4B4D332523997BC2B6DB71A539.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset'
+[2018.03.12-11.13.26:709][743]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset
+[2018.03.12-11.13.26:710][743]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.13.26:710][743]LightingResults: New page: Lighting Build
+[2018.03.12-11.13.26:711][743]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2018.03.12-11.13.26:711][743]MapCheck: New page: Map Check
+[2018.03.12-11.13.26:712][743]LightingResults: New page: Lighting Build
+[2018.03.12-11.13.26:722][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.13.26:744][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.13.26:804][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.856ms to complete.
+[2018.03.12-11.13.26:804][743]LogFileHelpers: Loading map 'Minimal_Default' took 0.096
+[2018.03.12-11.13.30:549][174]Cmd: EDIT COPY
+[2018.03.12-11.13.32:299][384]Cmd: EDIT COPY
+[2018.03.12-11.13.41:277][459]LogAIModule: Creating AISystem for world DevMap
+[2018.03.12-11.13.41:287][459]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.13.41:287][459]LightingResults: New page: Lighting Build
+[2018.03.12-11.13.41:287][459]LoadErrors: New page: Loading map: DevMap.umap
+[2018.03.12-11.13.41:289][459]MapCheck: New page: Map Check
+[2018.03.12-11.13.41:289][459]LightingResults: New page: Lighting Build
+[2018.03.12-11.13.41:299][459]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.13.41:320][459]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.13.41:381][459]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.267ms to complete.
+[2018.03.12-11.13.41:381][459]LogFileHelpers: Loading map 'DevMap' took 0.095
+[2018.03.12-11.13.42:819][630]Cmd: EDIT PASTE
+[2018.03.12-11.13.45:001][888]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.03.12-11.13.45:009][888]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.12-11.13.50:827][582]MapCheck: New page: Map Check
+[2018.03.12-11.13.50:838][582]LightingResults: New page: Lighting Build - Mar 12, 2018, 1:13:50 PM
+[2018.03.12-11.13.50:846][582]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-11.13.50:848][582]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-11.13.50:848][582]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-11.13.50:848][582]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-11.13.50:848][582]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7208
+[2018.03.12-11.13.55:375][582]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-11.13.55:376][582]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-11.13.55:376][582]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-11.13.55:376][582]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-11.13.55:376][582]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-11.13.55:376][582]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-11.13.55:536][582]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-11.13.56:790][646]Job is a success!
+[2018.03.12-11.13.56:835][648]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64)
+[2018.03.12-11.13.56:836][648]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.12-11.13.56:836][648]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.12-11.13.56:836][648]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2018.03.12-11.13.56:849][648]Lightmass on K104-0146: 589 ms total, 84 ms importing, 16 ms setup, 269 ms photons, 196 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.21 sec total, 14 ms processing.
+[2018.03.12-11.13.56:853][648]LogStaticLightingSystem: Illumination: 6.00 sec (2 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2018.03.12-11.13.56:853][648]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-11.13.56:853][648]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.12-11.13.57:378][648]DumpUnbuiltLightIteractions
+[2018.03.12-11.13.57:378][648]Lights with unbuilt interactions: 0
+[2018.03.12-11.13.57:378][648]
+[2018.03.12-11.13.57:378][648]Primitives with unbuilt interactions: 0
+[2018.03.12-11.13.57:508][649]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-11.13.57:509][649]MapCheck: New page: DevMap - Mar 12, 2018, 1:13:57 PM
+[2018.03.12-11.13.57:610][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.41ms to complete.
+[2018.03.12-11.14.07:359][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.03.12-11.14.33:043][887]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.14.33:157][887]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.14.38:054][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-11.14.38:076][185]LogSavePackage: Save=10.98ms
+[2018.03.12-11.14.38:076][185]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapF6FF90884D7720C1D81AA7A782D0F003.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap'
+[2018.03.12-11.14.38:078][185]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap
+[2018.03.12-11.14.38:087][185]LogFileHelpers: Saving map 'DevMap' took 0.096
+[2018.03.12-11.14.38:087][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap_BuiltData" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset" SILENT=true
+[2018.03.12-11.14.38:100][185]LogSavePackage: Save=7.37ms
+[2018.03.12-11.14.38:100][185]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap_BuiltData7AF2150F4EBECDF65CD695A97DDE5E23.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset'
+[2018.03.12-11.14.38:103][185]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap_BuiltData.uasset
+[2018.03.12-11.14.38:217][185]LogSavePackage: Save=40.56ms
+[2018.03.12-11.14.38:217][185]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Minimal_Default7DEE0E8B44B88EE0ACB0CCB59A0CE98B.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap'
+[2018.03.12-11.14.38:219][185]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap
+[2018.03.12-11.14.38:221][185]LogFileHelpers: Saving map 'Minimal_Default' took 0.117
+[2018.03.12-11.14.38:221][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_BuiltData_2" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default_BuiltData_2.uasset" SILENT=true
+[2018.03.12-11.14.38:250][185]LogSavePackage: Save=27.44ms
+[2018.03.12-11.14.38:250][185]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Minimal_Default_BuiltData_20CBBB65D4DC570B5ED5ACDA7430DC54E.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default_BuiltData_2.uasset'
+[2018.03.12-11.14.38:253][185]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default_BuiltData_2.uasset
+[2018.03.12-11.14.38:260][185]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.14.38:260][185]LightingResults: New page: Lighting Build
+[2018.03.12-11.14.38:261][185]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2018.03.12-11.14.38:262][185]MapCheck: New page: Map Check
+[2018.03.12-11.14.38:262][185]LightingResults: New page: Lighting Build
+[2018.03.12-11.14.38:289][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.14.38:311][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.14.38:370][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.829ms to complete.
+[2018.03.12-11.14.38:371][185]LogFileHelpers: Loading map 'Minimal_Default' took 0.113
+[2018.03.12-11.14.48:288][347]Cmd: EDIT COPY
+[2018.03.12-11.14.52:088][803]Cmd: EDIT COPY
+[2018.03.12-11.14.55:597][224]Cmd: EDIT COPY
+[2018.03.12-11.15.02:796][ 80]LogAIModule: Creating AISystem for world DevMap
+[2018.03.12-11.15.05:686][ 80]LogSavePackage: Save=37.98ms
+[2018.03.12-11.15.05:686][ 80]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Minimal_DefaultF908A2FE462647BA913E38BBF236D433.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap'
+[2018.03.12-11.15.05:688][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap
+[2018.03.12-11.15.05:703][ 80]LogFileHelpers: Saving map 'Minimal_Default' took 0.134
+[2018.03.12-11.15.05:705][ 80]Cmd: MAP LOAD FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-11.15.05:705][ 80]LightingResults: New page: Lighting Build
+[2018.03.12-11.15.05:705][ 80]LoadErrors: New page: Loading map: DevMap.umap
+[2018.03.12-11.15.05:706][ 80]MapCheck: New page: Map Check
+[2018.03.12-11.15.05:706][ 80]LightingResults: New page: Lighting Build
+[2018.03.12-11.15.05:717][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-11.15.05:738][ 80]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-11.15.05:800][ 80]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.493ms to complete.
+[2018.03.12-11.15.05:801][ 80]LogFileHelpers: Loading map 'DevMap' took 0.097
+[2018.03.12-11.15.07:105][221]Cmd: EDIT PASTE
+[2018.03.12-11.15.07:108][221]LogProperty: Warning: ObjectProperty /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:Directional light actor: unresolved reference to 'DirectionalLight'LightSource''
+[2018.03.12-11.15.10:474][622]MapCheck: New page: Map Check
+[2018.03.12-11.15.10:483][622]LightingResults: New page: Lighting Build - Mar 12, 2018, 1:15:10 PM
+[2018.03.12-11.15.10:491][622]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-11.15.10:493][622]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-11.15.10:493][622]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-11.15.10:494][622]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-11.15.10:494][622]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7208
+[2018.03.12-11.15.15:017][622]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-11.15.15:017][622]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-11.15.15:017][622]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-11.15.15:017][622]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-11.15.15:018][622]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-11.15.15:018][622]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-11.15.15:136][622]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-11.15.16:797][707]Job is a success!
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 128X64)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.12-11.15.16:847][709]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2018.03.12-11.15.16:861][709]Lightmass on K104-0146: 604 ms total, 95 ms importing, 19 ms setup, 269 ms photons, 203 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.26 sec total, 81 ms processing.
+[2018.03.12-11.15.16:865][709]LogStaticLightingSystem: Illumination: 6.37 sec (5 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2018.03.12-11.15.16:865][709]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-11.15.16:865][709]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-11.15.17:020][709]DumpUnbuiltLightIteractions
+[2018.03.12-11.15.17:020][709]Lights with unbuilt interactions: 0
+[2018.03.12-11.15.17:020][709]
+[2018.03.12-11.15.17:020][709]Primitives with unbuilt interactions: 0
+[2018.03.12-11.15.17:080][710]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-11.15.17:080][710]MapCheck: New page: DevMap - Mar 12, 2018, 1:15:17 PM
+[2018.03.12-11.15.17:156][710]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.304ms to complete.
+[2018.03.12-11.15.57:719][547]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.03.12-11.16.19:687][166]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.12-11.16.35:018][991]MapCheck: New page: Map Check
+[2018.03.12-11.16.35:024][991]LightingResults: New page: Lighting Build - Mar 12, 2018, 1:16:35 PM
+[2018.03.12-11.16.35:031][991]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-11.16.35:033][991]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-11.16.35:033][991]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-11.16.35:034][991]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-11.16.35:034][991]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7208
+[2018.03.12-11.16.39:560][991]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.12-11.16.39:560][991]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-11.16.39:560][991]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-11.16.39:561][991]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-11.16.39:561][991]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-11.16.39:561][991]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-11.16.39:695][991]LogEditorBuildUtils: Build time 0:04
+[2018.03.12-11.16.40:960][ 46]Job is a success!
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2018.03.12-11.16.41:009][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.03.12-11.16.41:023][ 48]Lightmass on K104-0146: 588 ms total, 84 ms importing, 15 ms setup, 269 ms photons, 201 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.24 sec total, 83 ms processing.
+[2018.03.12-11.16.41:026][ 48]LogStaticLightingSystem: Illumination: 5.99 sec (5 ms encoding lightmaps, 11 ms encoding shadowmaps)
+[2018.03.12-11.16.41:027][ 48]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-11.16.41:027][ 48]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-11.16.41:565][ 48]DumpUnbuiltLightIteractions
+[2018.03.12-11.16.41:565][ 48]Lights with unbuilt interactions: 0
+[2018.03.12-11.16.41:565][ 48]
+[2018.03.12-11.16.41:565][ 48]Primitives with unbuilt interactions: 0
+[2018.03.12-11.16.41:656][ 49]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-11.16.41:656][ 49]MapCheck: New page: DevMap - Mar 12, 2018, 1:16:41 PM
+[2018.03.12-11.16.41:720][ 49]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.224ms to complete.
+[2018.03.12-11.17.01:806][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-11.17.02:183][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.03.12-11.17.21:775][609]LogLinker: Warning: Can't find file '/Game/Maps/Minimal_Default_BuiltData'
+[2018.03.12-11.17.21:775][609]LogLinker: Warning: Can't find file for asset '/Game/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap.
+[2018.03.12-11.17.21:775][609]LoadErrors: Error: /Game/Maps/Minimal_Default : Can't find file for asset. /Game/Maps/Minimal_Default_BuiltData
+[2018.03.12-11.17.21:777][609]LogLinker: Warning: Can't find file '/Game/Maps/Minimal_Default_BuiltData'
+[2018.03.12-11.17.21:777][609]LogLinker: Warning: Can't find file for asset '/Game/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/Minimal_Default.umap.
+[2018.03.12-11.17.21:781][609]LogLinker: Warning: Can't find file '/Game/Maps/Minimal_Default_BuiltData'
+[2018.03.12-11.17.21:782][609]LogLinker: Warning: Can't find file for asset '/Game/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.12-11.17.21:782][609]LogLinker: Warning: Can't find file '/Game/Maps/Minimal_Default_BuiltData'
+[2018.03.12-11.17.21:782][609]LogLinker: Warning: Can't find file for asset '/Game/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.12-11.17.21:784][609]LogLinker: Warning: Can't find file '/Game/Maps/Minimal_Default_BuiltData'
+[2018.03.12-11.17.21:784][609]LoadErrors: Failed to load /Game/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.12-11.17.21:784][609]LogLinker: Warning: Can't find file for asset '/Game/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.12-11.17.21:788][609]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.12-11.25.04:326][ 72]LogSlate: Took 0.031887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.12-11.25.04:518][ 72]LogSavePackage: Save=46.06ms
+[2018.03.12-11.25.04:518][ 72]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap_Auto1624A56C24D49F71913642596FCBCCED2.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMap_Auto1.umap'
+[2018.03.12-11.25.04:520][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMap_Auto1.umap
+[2018.03.12-11.25.04:526][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMap' took 0.115
+[2018.03.12-11.25.04:526][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2018.03.12-11.25.04:527][ 72]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/DevMap_BuiltData] ([1] browsable assets)...
+[2018.03.12-11.25.04:527][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/DevMap_BuiltData]
+[2018.03.12-11.25.04:544][ 72]LogSavePackage: Save=9.24ms
+[2018.03.12-11.25.04:544][ 72]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMap_BuiltData_Auto16A02793B4E16272B4E48DE83EC338743.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMap_BuiltData_Auto1.uasset'
+[2018.03.12-11.25.04:546][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Autosaves/Game/Maps/DevMap_BuiltData_Auto1.uasset
+[2018.03.12-11.25.04:546][ 72]LogFileHelpers: Auto-saving content packages took 0.019
+[2018.03.12-13.13.36:960][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.03.12-13.13.37:501][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.03.12-13.14.16:792][826]Cmd: TRANSACTION UNDO
+[2018.03.12-13.14.16:792][826]LogEditorTransaction: Undo Create Actors
+[2018.03.12-13.14.22:715][463]Cmd: TRANSACTION UNDO
+[2018.03.12-13.14.22:715][463]LogEditorTransaction: Undo Create Actors
+[2018.03.12-13.15.15:186][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMapEtienne" FILE="../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.12-13.15.15:365][ 82]LogSavePackage: Save=165.48ms
+[2018.03.12-13.15.15:368][ 82]LogSavePackage: Moving '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/DevMapEtienne4C1AB02E4A47BC8D701530A270FA9D61.tmp' to '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap'
+[2018.03.12-13.15.15:388][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Maps/DevMapEtienne.umap
+[2018.03.12-13.15.15:436][ 82]LogFileHelpers: Saving map 'DevMapEtienne' took 0.334
+[2018.03.12-13.15.21:985][819]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64)
+[2018.03.12-13.15.21:985][819]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2018.03.12-13.15.21:985][819]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2018.03.12-13.25.23:000][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DevMapEtienne' took 0.017
+[2018.03.12-13.25.23:002][ 44]LogExec: Warning: Missing filename
+[2018.03.12-13.25.23:002][ 44]LogFileHelpers: Auto-saving content packages took 0.001
+[2018.03.12-13.41.33:653][285]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-13.41.33:653][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Pillar_50x500'
+[2018.03.12-13.41.33:654][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Pillar_50x500'
+[2018.03.12-13.41.33:654][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Pillar_50x500.Pillar_50x500'
+[2018.03.12-13.41.33:654][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/SM_AssetPlatform'
+[2018.03.12-13.41.33:654][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/SM_AssetPlatform'
+[2018.03.12-13.41.33:654][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/SM_AssetPlatform.SM_AssetPlatform'
+[2018.03.12-13.41.33:654][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x300'
+[2018.03.12-13.41.33:655][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x300'
+[2018.03.12-13.41.33:655][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300'
+[2018.03.12-13.41.33:655][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x400'
+[2018.03.12-13.41.33:655][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x400'
+[2018.03.12-13.41.33:655][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400'
+[2018.03.12-13.41.33:655][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_500x500'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_500x500'
+[2018.03.12-13.41.33:656][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Wall_500x500.Wall_500x500'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x400'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x400'
+[2018.03.12-13.41.33:656][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Wall_Door_400x400.Wall_Door_400x400'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x400'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x400'
+[2018.03.12-13.41.33:656][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Architecture/Wall_Window_400x400.Wall_Window_400x400'
+[2018.03.12-13.41.33:656][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_Effect_Explosion'
+[2018.03.12-13.41.33:657][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_Effect_Explosion'
+[2018.03.12-13.41.33:657][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Blueprint_Effect_Explosion.Blueprint_Effect_Explosion'
+[2018.03.12-13.41.33:657][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/BP_LightStudio'
+[2018.03.12-13.41.33:657][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/BP_LightStudio'
+[2018.03.12-13.41.33:657][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio'
+[2018.03.12-13.41.33:657][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/FogBrightnessLUT'
+[2018.03.12-13.41.33:657][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/FogBrightnessLUT'
+[2018.03.12-13.41.33:657][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/FogBrightnessLUT.FogBrightnessLUT'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows'
+[2018.03.12-13.41.33:658][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows.M_LightStage_Arrows'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black'
+[2018.03.12-13.41.33:658][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.M_LightStage_Skybox_Black'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI'
+[2018.03.12-13.41.33:658][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI'
+[2018.03.12-13.41.33:658][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.M_LightStage_Skybox_HDRI'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master'
+[2018.03.12-13.41.33:659][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.M_LightStage_Skybox_Master'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/Skybox'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/Skybox'
+[2018.03.12-13.41.33:659][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/Skybox.Skybox'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SM_Arrows'
+[2018.03.12-13.41.33:659][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SM_Arrows'
+[2018.03.12-13.41.33:659][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/SM_Arrows.SM_Arrows'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Assets/SunlightColorLUT'
+[2018.03.12-13.41.33:660][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Blueprints/Assets/SunlightColorLUT.SunlightColorLUT'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.03.12-13.41.33:660][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Advanced_Lighting'
+[2018.03.12-13.41.33:660][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Advanced_Lighting'
+[2018.03.12-13.41.33:661][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData'
+[2018.03.12-13.41.33:661][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Maps/Advanced_Lighting_BuiltData.Advanced_Lighting_BuiltData'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default'
+[2018.03.12-13.41.33:661][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Maps/Minimal_Default.Minimal_Default'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap'
+[2018.03.12-13.41.33:661][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap'
+[2018.03.12-13.41.33:661][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Maps/StarterMap.StarterMap'
+[2018.03.12-13.41.33:662][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/StarterMap_BuiltData'
+[2018.03.12-13.41.33:662][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData'
+[2018.03.12-13.41.33:662][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_AssetPlatform'
+[2018.03.12-13.41.33:662][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_AssetPlatform'
+[2018.03.12-13.41.33:662][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform'
+[2018.03.12-13.41.33:662][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_ColorGrid_LowSpec'
+[2018.03.12-13.41.33:662][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_ColorGrid_LowSpec'
+[2018.03.12-13.41.33:663][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Materials/M_ColorGrid_LowSpec.M_ColorGrid_LowSpec'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2018.03.12-13.41.33:663][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Particles/P_Explosion.P_Explosion'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Burst'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_Burst'
+[2018.03.12-13.41.33:663][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Particles/Materials/M_Burst.M_Burst'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2018.03.12-13.41.33:663][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_explosion_subUV'
+[2018.03.12-13.41.33:664][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV'
+[2018.03.12-13.41.33:664][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/m_flare_01'
+[2018.03.12-13.41.33:664][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/m_flare_01'
+[2018.03.12-13.41.33:664][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Particles/Materials/m_flare_01.m_flare_01'
+[2018.03.12-13.41.33:664][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_radial_ramp'
+[2018.03.12-13.41.33:664][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/Materials/M_radial_ramp'
+[2018.03.12-13.41.33:664][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Particles/Materials/M_radial_ramp.M_radial_ramp'
+[2018.03.12-13.41.33:664][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Bush'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Bush'
+[2018.03.12-13.41.33:665][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Bush.SM_Bush'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Couch'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Couch'
+[2018.03.12-13.41.33:665][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Couch.SM_Couch'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2018.03.12-13.41.33:665][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Door.SM_Door'
+[2018.03.12-13.41.33:665][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_MatPreviewMesh_02'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_MatPreviewMesh_02'
+[2018.03.12-13.41.33:666][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_MatPreviewMesh_02.SM_MatPreviewMesh_02'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Rock'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Rock'
+[2018.03.12-13.41.33:666][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Rock.SM_Rock'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Shelf'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Shelf'
+[2018.03.12-13.41.33:666][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Shelf.SM_Shelf'
+[2018.03.12-13.41.33:666][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Stairs'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/SM_Stairs'
+[2018.03.12-13.41.33:667][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/SM_Stairs.SM_Stairs'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Bush'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Bush'
+[2018.03.12-13.41.33:667][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_Bush.M_Bush'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.03.12-13.41.33:667][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_Door.M_Door'
+[2018.03.12-13.41.33:667][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_MaterialSphere'
+[2018.03.12-13.41.33:668][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_MaterialSphere'
+[2018.03.12-13.41.33:668][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_MaterialSphere.M_MaterialSphere'
+[2018.03.12-13.41.33:668][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_MaterialSphere_Plain'
+[2018.03.12-13.41.33:668][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_MaterialSphere_Plain'
+[2018.03.12-13.41.33:668][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_MaterialSphere_Plain.M_MaterialSphere_Plain'
+[2018.03.12-13.41.33:668][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Rock'
+[2018.03.12-13.41.33:668][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Rock'
+[2018.03.12-13.41.33:668][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_Rock.M_Rock'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Shelf'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Shelf'
+[2018.03.12-13.41.33:669][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Props/Materials/M_Shelf.M_Shelf'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cone'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cone'
+[2018.03.12-13.41.33:669][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Cone.Shape_Cone'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.03.12-13.41.33:669][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.03.12-13.41.33:669][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_NarrowCapsule'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_NarrowCapsule'
+[2018.03.12-13.41.33:670][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe'
+[2018.03.12-13.41.33:670][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe_180'
+[2018.03.12-13.41.33:670][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe_180'
+[2018.03.12-13.41.33:670][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Pipe_180.Shape_Pipe_180'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe_90'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Pipe_90'
+[2018.03.12-13.41.33:671][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Pipe_90.Shape_Pipe_90'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Plane'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Plane'
+[2018.03.12-13.41.33:671][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Plane.Shape_Plane'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Torus'
+[2018.03.12-13.41.33:671][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Torus'
+[2018.03.12-13.41.33:671][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Torus.Shape_Torus'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim'
+[2018.03.12-13.41.33:672][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Trim.Shape_Trim'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim_90_In'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim_90_In'
+[2018.03.12-13.41.33:672][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Trim_90_In.Shape_Trim_90_In'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim_90_Out'
+[2018.03.12-13.41.33:672][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Trim_90_Out'
+[2018.03.12-13.41.33:672][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Trim_90_Out.Shape_Trim_90_Out'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_TriPyramid'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_TriPyramid'
+[2018.03.12-13.41.33:673][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_TriPyramid.Shape_TriPyramid'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Tube'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Tube'
+[2018.03.12-13.41.33:673][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Tube.Shape_Tube'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Wedge_A'
+[2018.03.12-13.41.33:673][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Wedge_A'
+[2018.03.12-13.41.33:674][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Wedge_A.Shape_Wedge_A'
+[2018.03.12-13.41.33:674][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Wedge_B'
+[2018.03.12-13.41.33:674][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Wedge_B'
+[2018.03.12-13.41.33:674][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_Wedge_B.Shape_Wedge_B'
+[2018.03.12-13.41.33:674][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_WideCapsule'
+[2018.03.12-13.41.33:674][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Shapes/Shape_WideCapsule'
+[2018.03.12-13.41.33:674][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Shapes/Shape_WideCapsule.Shape_WideCapsule'
+[2018.03.12-13.41.33:674][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2018.03.12-13.41.33:675][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2018.03.12-13.41.33:675][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Burst_M.T_Burst_M'
+[2018.03.12-13.41.33:675][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Bush_D'
+[2018.03.12-13.41.33:675][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Bush_D'
+[2018.03.12-13.41.33:675][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Bush_D.T_Bush_D'
+[2018.03.12-13.41.33:675][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Bush_N'
+[2018.03.12-13.41.33:675][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Bush_N'
+[2018.03.12-13.41.33:675][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Bush_N.T_Bush_N'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Door_M'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Door_M'
+[2018.03.12-13.41.33:676][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Door_M.T_Door_M'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Door_N'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Door_N'
+[2018.03.12-13.41.33:676][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Door_N.T_Door_N'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2018.03.12-13.41.33:676][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2018.03.12-13.41.33:676][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Explosion_SubUV.T_Explosion_SubUV'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_RockMesh_M'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_RockMesh_M'
+[2018.03.12-13.41.33:677][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_RockMesh_M.T_RockMesh_M'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_RockMesh_N'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_RockMesh_N'
+[2018.03.12-13.41.33:677][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_RockMesh_N.T_RockMesh_N'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Shelf_M'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Shelf_M'
+[2018.03.12-13.41.33:677][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Shelf_M.T_Shelf_M'
+[2018.03.12-13.41.33:677][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Shelf_N'
+[2018.03.12-13.41.33:678][285]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Shelf_N'
+[2018.03.12-13.41.33:678][285]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/StarterContent/Textures/T_Shelf_N.T_Shelf_N'
+[2018.03.12-13.42.06:378][271]Cmd: QUIT_EDITOR
+[2018.03.12-13.42.06:850][271]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.12-13.42.06:893][271]LogExit: Preparing to exit.
+[2018.03.12-13.42.07:941][271]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' was aborted.
+[2018.03.12-13.42.08:000][271]LogExit: Editor shut down
+[2018.03.12-13.42.08:005][271]LogExit: Transaction tracking system shut down
+[2018.03.12-13.42.08:288][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.12-13.42.08:288][271]LogDirectoryWatcher: A directory notification for '../../../../../../Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/' was aborted.
+[2018.03.12-13.42.08:288][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.12-13.42.08:288][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.12-13.42.08:288][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.12-13.42.08:458][271]LogExit: Object subsystem successfully closed.
+[2018.03.12-13.42.08:496][271]LogD3D11RHI: Shutdown
+[2018.03.12-13.42.08:496][271]LogD3D11RHI: CleanupD3DDevice
+[2018.03.12-13.42.08:659][271]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.12-13.42.08:674][271]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.03.12-13.42.08:674][271]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.03.12-13.42.08:674][271]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.03.12-13.42.08:674][271]LogModuleManager: Shutting down and abandoning module WorldBrowser (528)
+[2018.03.12-13.42.08:674][271]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.03.12-13.42.08:674][271]LogDirectoryWatcher: A directory notification for 'C:/UE4/UnrealProjects/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.12-13.42.08:679][271]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.03.12-13.42.08:679][271]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.03.12-13.42.08:679][271]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.03.12-13.42.08:680][271]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Collections/' was aborted.
+[2018.03.12-13.42.08:680][271]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Content/Developers/evantorre/Collections/' was aborted.
+[2018.03.12-13.42.08:680][271]LogDirectoryWatcher: A directory notification for 'C:/Users/e.vantorre/Desktop/Unreal/BraquageDeOuf/Saved/Collections/' was aborted.
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.03.12-13.42.08:680][271]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.03.12-13.42.08:681][271]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.03.12-13.42.09:038][271]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.03.12-13.42.09:039][271]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.03.12-13.42.09:040][271]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.03.12-13.42.09:040][271]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.03.12-13.42.09:040][271]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.03.12-13.42.09:040][271]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.03.12-13.42.09:095][271]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.03.12-13.42.09:096][271]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.03.12-13.42.09:097][271]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.03.12-13.42.09:227][271]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.03.12-13.42.09:228][271]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.03.12-13.42.09:228][271]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.03.12-13.42.09:229][271]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.03.12-13.42.09:229][271]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.03.12-13.42.09:229][271]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.12-13.42.09:230][271]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.12-13.42.09:331][271]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.12-13.42.09:432][271]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.12-13.42.09:434][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.12-13.42.09:434][271]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.12-13.42.09:434][271]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.12-13.42.09:434][271]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.12-13.42.09:435][271]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.12-13.42.09:436][271]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.12-13.42.09:436][271]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.12-13.42.09:436][271]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.12-13.42.09:436][271]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.03.12-13.42.09:438][271]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.03.12-13.42.09:439][271]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.03.12-13.42.09:439][271]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.03.12-13.42.09:439][271]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.03.12-13.42.09:439][271]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.12-13.42.09:443][271]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.12-13.42.09:493][271]LogDerivedDataCache: Shutdown
+[2018.03.12-13.42.09:493][271]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.12-13.42.09:493][271]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.12-13.42.09:493][271]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.12-13.42.09:494][271]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.12-13.42.09:495][271]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.12-13.42.09:495][271]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.12-13.42.09:495][271]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.12-13.42.09:495][271]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC8EEFB8-47A9-C56E-6E4D-2390214A5031%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=0268f9e74f6ff668c3afdf90e3bcef94%7C%7C8ca5eff5-f204-42a9-a4d4-b57f9935787c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.12-13.42.09:526][271]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.12-13.42.09:528][271]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.12-13.42.09:531][271]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.12-13.42.09:535][271]LogExit: Exiting.
+[2018.03.12-13.42.09:548][271]Log file closed, 03/12/18 14:42:09
